@@ -6,9 +6,9 @@ DOMAIN-KEYWORD,dynamodb
 DOMAIN-KEYWORD,tzfile
 DOMAIN-KEYWORD,wetransfer
 DOMAIN-SUFFIX,blog.kiseki.moe
-DOMAIN-SUFFIX,altema.jp
-DOMAIN-SUFFIX,gamegift.jp
-DOMAIN-SUFFIX,co.jp
+#DOMAIN-SUFFIX,altema.jp
+#DOMAIN-SUFFIX,gamegift.jp
+#DOMAIN-SUFFIX,co.jp
 DOMAIN-SUFFIX,merc.wiki
 DOMAIN-SUFFIX,tap.io
 DOMAIN-SUFFIX,tapdb.net
