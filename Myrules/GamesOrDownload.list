@@ -40,7 +40,7 @@ DOMAIN,steamusercontent-a.akamaihd.net
 DOMAIN,steamuserimages-a.akamaihd.net
 #LOLPBE
 DOMAIN-SUFFIX,riotcdn.net
-DOMAIN-SUFFIX,us.ekg.riotgames.com
+DOMAIN-SUFFIX,ekg.riotgames.com
 DOMAIN-SUFFIX,leagueoflegends.com
 DOMAIN-SUFFIX,vivox.com
 DOMAIN-SUFFIX,akamaihd.net
@@ -48,6 +48,7 @@ DOMAIN-SUFFIX,contentstack.io
 DOMAIN-SUFFIX,newrelic.com
 DOMAIN-SUFFIX,wr.pvp.net
 DOMAIN-SUFFIX,rpg.riotgames.com
+DOMAIN-SUFFIX,si.riotgames.com
 #育碧
 DOMAIN-KEYWORD,ubisoft
 DOMAIN-KEYWORD,ubi
