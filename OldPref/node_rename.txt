@@ -1,6 +1,5 @@
 回国[\d\D]*(A|B|C|D)(\d\d)[\d\D]*@回国&网易云解锁 $2
 游戏.*\s\D(\d\d)@游戏 5Mbps $1
-专线@
 ;(\（).*?(\）)...(\d)*.bps@
 (\（).*?(\）)@
 .(\d)*.bps@
@@ -42,7 +41,8 @@ CNIX - @
 中国-新加坡 IEPL@中坡 IEPL
 香港 油尖旺御金·国峯 環球全域電訊@香港 HGC
 ;v5
-[\D\d]*(PVCC)[\D\d]*@中港 PVCC
+.*(PVCC).*@香港 PVCC
+;[\D\d]*(PVCC)[\D\d]*@中港 PVCC
 中国-日本 多协议标签交换虚拟专用网@中日 MPLS
 中国-韩国 IEPL@中韩 IEPL
 ;连体分离
@@ -56,7 +56,7 @@ Netflix 动画疯@NFD
 Netflix Hulu HBO@NFHB
 Netflix HBO TVB@NFHT
 Netflix@NF
- 港区TVB/HBO/Netflix解锁@NFHT
+; 港区TVB/HBO/Netflix解锁@NFHT
 ;倍率杂项
 ;\(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
 \(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)? @
