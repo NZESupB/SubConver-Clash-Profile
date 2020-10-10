@@ -1,5 +1,6 @@
 回国[\d\D]*(A|B|C|D)(\d\d)[\d\D]*@回国&网易云解锁 $2
 游戏.*\s\D(\d\d)@游戏 5Mbps $1
+专线@
 ;(\（).*?(\）)...(\d)*.bps@
 (\（).*?(\）)@
 .(\d)*.bps@
@@ -55,7 +56,7 @@ Netflix 动画疯@NFD
 Netflix Hulu HBO@NFHB
 Netflix HBO TVB@NFHT
 Netflix@NF
-
+ 港区TVB/HBO/Netflix解锁@NFHT
 ;倍率杂项
 ;\(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
 \(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)? @
