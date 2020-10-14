@@ -9,7 +9,7 @@
 🎯 全球直连,https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/Myrules/MyChinaIp.list
 Ⓜ️ 微软服务,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/MSServices.list
 🔰 节点选择,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Global.list
-🎮 娱乐流量,https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/Myrules/GamesOrDownload.list
+🎮 娱乐游戏,https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/Myrules/GamesOrDownload.list
 🔰 节点选择,https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/Myrules/Myrule.list
 🎯 全球直连,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/China.list
 🎯 全球直连,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/ChinaIP.list
