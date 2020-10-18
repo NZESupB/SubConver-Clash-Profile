@@ -66,3 +66,6 @@ JP@日本
 Tunnel@隧道
 Cluster@集群
 Native@原生
+美國@美国
+廣州@广州
+韓國@韩国
