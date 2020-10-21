@@ -50,11 +50,11 @@ CNIX - @
 巴西 Fortaleza Brasil Telecom@巴西
 
 ;流媒体
-流媒体@NF
-Netflix 动画疯@NFD
-Netflix Hulu HBO@NFHB
-Netflix HBO TVB@NFHT
-Netflix@NF
+流媒体@*
+Netflix 动画疯@*
+Netflix Hulu HBO@*
+Netflix HBO TVB@*
+Netflix@*
 ;倍率杂项
 ;\(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
 狮城@新加坡
