@@ -60,5 +60,4 @@ SG@新加坡
 TW@台湾
 US@美国
 JP@日本
-CM|GZCM@广移
-D@直连
+CM|GZCM@中转
