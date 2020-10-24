@@ -5,7 +5,7 @@ NF@*
 Netflix Hulu HBO@*
  Netflix HBO TVB@*
 Netflix@*
-TVB/HBO/Netflix@*
+TVB\/HBO\/Netflix@*
 
 多协议标签交换虚拟专用网@MPLS
 ;删除倍率
