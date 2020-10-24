@@ -1,9 +1,9 @@
 流媒体
 流媒体@*
 NF@*
- Netflix 动画疯@*
+Netflix 动画疯@*
 Netflix Hulu HBO@*
- Netflix HBO TVB@*
+Netflix HBO TVB@*
 Netflix@*
 TVB\/HBO\/Netflix@*
 
@@ -47,7 +47,7 @@ CNIX - @
 .*(PVCC).*(\d\d)@香港 $1 $2 |🍟
 ;中国-台湾(.*)(IPLC|IEPL|专线).*(\d\d) (\*)?@中台 $2 $3 ${4:-} |🍟
 ;中国-俄罗斯.*(IPLC|IEPL) (\d\d)@中俄 $1 $2 |🍟
-;中国-加拿大 (IPLC) (\d\d)@中加 $1 $2 |🍟
+;中国-加拿大.*(IPLC).*(\d\d)@中加 $1 $2 |🍟
 ;中国-印度.*(IPLC|IEPL) (\d\d)@中印 $1 $2 |🍟
 ;中国-土耳其.*(IPLC|IEPL).*(\d\d)@土耳其 $1 $2 |🍟
 ;(中国-)?新加坡.*(IEPL|电信)\s(\w|(\d){2})\s(\*)?@中坡 $2 $3 ${5:-} |🍟
