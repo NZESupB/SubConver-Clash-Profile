@@ -19,9 +19,9 @@ SG@新加坡
 TW@台湾
 US@美国
 JP@日本
-CM@中转
 GZCM@广移
 CSCU@长联
+CM@中转
 Direct@直连
 
 ;(\（).*?(\）)(\d)*.bps@
