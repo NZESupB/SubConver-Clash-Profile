@@ -18,6 +18,7 @@ DOMAIN-SUFFIX,ooklaserver.net
 DOMAIN-SUFFIX,hgc.com.hk
 DOMAIN-SUFFIX,fdcservers.net
 DOMAIN-SUFFIX,fast.com
+DOMAIN,speed.cloudflare.com
 #epic
 DOMAIN-SUFFIX,epicgames.com
 DOMAIN-SUFFIX,helpshift.com
