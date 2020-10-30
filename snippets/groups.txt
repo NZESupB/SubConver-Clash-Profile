@@ -19,5 +19,5 @@
 ;🇹🇷 土耳其`select`(土耳其)
 🇬🇧 英国`select`(英|BBC)
 🎯 全球直连`select`[]DIRECT
-🛑 广告拦截`select`[]REJECT`[]DIRECT
+🛑 广告拦截`select`[]REJECT`[]DIRECT`[]🚀 节点选择
 🐟 漏网之鱼`select`[]🎯 全球直连`[]🚀 节点选择
