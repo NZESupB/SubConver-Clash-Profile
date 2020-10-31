@@ -14,4 +14,5 @@
 🎯 全球直连,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/China.list
 🎯 全球直连,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/ChinaIP.list
 🇯🇵 日本,https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/Myrules/MyJapanIp.list
+🇭🇰 香港,https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/Myrules/MyHongKongIp
 🐟 漏网之鱼,[]FINAL
