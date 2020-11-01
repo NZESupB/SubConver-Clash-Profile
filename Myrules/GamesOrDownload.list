@@ -60,8 +60,8 @@ DOMAIN-SUFFIX,cds.s4a8x2q3.hwcdn.net
 DOMAIN-SUFFIX,app-measurement.com
 IP-CIDR,162.62.158.0/24
 #RiotGames
-IP-CIDR,192.64.170.0/21
-IP-CIDR,104.160.128.0/19
+IP-CIDR,192.64.170.0/21,no-resolve
+IP-CIDR,104.160.128.0/19,no-resolve
 #育碧
 DOMAIN-KEYWORD,ubisoft
 DOMAIN-KEYWORD,ubi
