@@ -12,7 +12,6 @@
 Ⓜ️ 微软苹果,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
 🇯🇵 日本,https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/Myrules/MyJapanIp.list
 🇭🇰 香港,https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/Myrules/Potato.list
-🇺🇲 美国,https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/Myrules/MyUSIp.list
 🎮 游戏娱乐,https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/Myrules/GamesOrDownload.list
 🚀 节点选择,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Global.list
 🚀 节点选择,https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/Myrules/Myrule.list
