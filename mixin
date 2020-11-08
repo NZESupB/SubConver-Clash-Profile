@@ -9,10 +9,10 @@ mixin:
       - 117.50.11.11
       - 119.29.29.29
       - 52.80.66.66
-      - https://162.159.46.1/dns-query
-      - https://dns.rubyfish.cn/dns-query
-      - https://162.14.13.12/dns-query
-      - https://162.159.36.1/dns-query
+      #- https://162.159.46.1/dns-query
+      #- https://dns.rubyfish.cn/dns-query
+      #- https://162.14.13.12/dns-query
+      #- https://162.159.36.1/dns-query
     fallback:
       - https://1.1.1.1/dns-query
       - https://8.8.8.8/dns-query
@@ -21,3 +21,4 @@ mixin:
       - https://dns.rubyfish.cn/dns-query
       - https://162.159.46.1/dns-query
       - https://162.14.13.12/dns-query
+      
