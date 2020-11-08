@@ -3,22 +3,19 @@ mixin:
     enable: true
     ipv6: false
     listen: 0.0.0.0:53
-    enhanced-mode: redir-host # redir-host fake-ip
+    enhanced-mode: redir-host #fake-ip
     # fake-ip-range: 198.18.0.1/16
     nameserver:
-      - 117.50.11.11
-      - 119.29.29.29
-      - 52.80.66.66
-      #- https://162.159.46.1/dns-query
-      #- https://dns.rubyfish.cn/dns-query
-      #- https://162.14.13.12/dns-query
-      #- https://162.159.36.1/dns-query
-    fallback:
-      - https://1.1.1.1/dns-query
-      - https://8.8.8.8/dns-query
-      - https://1.0.0.1/dns-query
+      - https://162.159.46.1/dns-query
+      - https://dns.rubyfish.cn/dns-query
+      - https://162.14.13.12/dns-query
       - https://162.159.36.1/dns-query
+      - https://1.1.1.1/dns-query
+      - https://1.0.0.1/dns-query
+    fallback:
+      - https://162.159.36.1/dns-query
+      - https://1.1.1.1/dns-query
       - https://dns.rubyfish.cn/dns-query
       - https://162.159.46.1/dns-query
+      - https://1.0.0.1/dns-query
       - https://162.14.13.12/dns-query
-      
