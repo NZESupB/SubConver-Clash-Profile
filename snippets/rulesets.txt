@@ -3,9 +3,9 @@
 🎶 网易云音乐,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list
 📲 电报信息,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Telegram/Telegram.list
 🌍 国外媒体,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Streaming.list
+🌍 国外媒体,https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/Myrules/Potato.list
 🌏 国内媒体,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingSE.list
 🌏 国内媒体,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingCN.list
-🌏 国内媒体,https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/Myrules/Potato.list
 🛑 广告拦截,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list
 🛑 广告拦截,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Hijacking.list
 🎯 全球直连,https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/Myrules/MyChinaIp.list
