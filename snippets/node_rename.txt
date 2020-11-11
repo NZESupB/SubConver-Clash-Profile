@@ -46,7 +46,7 @@ CNIX\s\-\s@
 ソフトバンク@软银
 多协议标签交换虚拟专用网@MPLS
 沪日IEPL传输@IEPL
-名氣通電訊@HKHE
+名氣通電訊@HE
 環球全域電訊@HGC
 網上行寬頻@HKT
 香港寬頻@HKBN
