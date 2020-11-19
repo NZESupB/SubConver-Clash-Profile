@@ -310,9 +310,6 @@ rule-providers:
     path: ./RuleSet/Myrule.yaml
     url: https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/Myrules/RuleSet/Myrule.yaml
     interval: 86400
-    
-   
-
 # 规则
 rules:
   # Local Area Network
