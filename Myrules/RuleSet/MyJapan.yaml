@@ -1,7 +1,7 @@
 payload:
-  DOMAIN-KEYWORD,jp
-  DOMAIN-SUFFIX,piapro.net
-  DOMAIN-KEYWORD,andapp
-  DOMAIN-KEYWORD,hekk
-  DOMAIN-KEYWORD,merc
-  DOMAIN-SUFFIX,ponosgames.com
+  - DOMAIN-KEYWORD,jp
+  - DOMAIN-SUFFIX,piapro.net
+  - DOMAIN-KEYWORD,andapp
+  - DOMAIN-KEYWORD,hekk
+  - DOMAIN-KEYWORD,merc
+  - DOMAIN-SUFFIX,ponosgames.com
