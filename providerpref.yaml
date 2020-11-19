@@ -244,25 +244,25 @@ rule-providers:
     path: ./RuleSet/Streaming.yaml
     url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Streaming.yaml
     interval: 86400
-  🌏 国内媒体:
+  🌏 国内媒体1:
     type: http 
     behavior: classical
     path: ./RuleSet/StreamingSE.yaml
     url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingSE.yaml
     interval: 86400
-  🌏 国内媒体:
+  🌏 国内媒体2:
     type: http 
     behavior: classical
     path: ./RuleSet/StreamingCN.yaml
     url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingCN.yaml
     interval: 86400
-  🛑 广告拦截:
+  🛑 广告拦截1:
     type: http 
     behavior: classical
     path: ./RuleSet/Advertising.yaml
     url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Advertising.yaml
     interval: 86400
-  🛑 广告拦截:
+  🛑 广告拦截2:
     type: http 
     behavior: classical
     path: ./RuleSet/Hijacking.yaml
@@ -274,13 +274,25 @@ rule-providers:
     path: ./RuleSet/Global.yaml
     url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Global.yaml
     interval: 86400
-  🎯 全球直连:
+  🍎 苹果:
+    type: http 
+    behavior: classical
+    path: ./RuleSet/Apple.yaml
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Apple.yaml
+    interval: 86400
+  Ⓜ️ 微软:
+    type: http 
+    behavior: classical
+    path: ./RuleSet/Microsoft.yaml
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Microsoft.yaml
+    interval: 86400
+  🎯 直连1:
     type: http 
     behavior: classical
     path: ./RuleSet/China.yaml
     url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml
     interval: 86400
-  🎯 全球直连:
+  🎯 直连2:
     type: http 
     behavior: classical
     path: ./RuleSet/ChinaIP.yaml
@@ -305,9 +317,14 @@ rules:
   - RULE-SET,🎶 网易云音乐,🎶 网易云音乐
   - RULE-SET,📲 电报信息,📲 电报信息
   - RULE-SET,🌍 国外媒体,🌍 国外媒体
-  - RULE-SET,🌏 国内媒体,🌏 国内媒体
-  - RULE-SET,🛑 广告拦截,🛑 广告拦截
+  - RULE-SET,🌏 国内媒体1,🌏 国内媒体
+  - RULE-SET,🌏 国内媒体2,🌏 国内媒体
+  - RULE-SET,🛑 广告拦截1,🛑 广告拦截
+  - RULE-SET,🛑 广告拦截2,🛑 广告拦截
   - RULE-SET,📲 电报信息,📲 电报信息
+  - RULE-SET,🍎 苹果,Ⓜ️ 微软苹果 
+  - RULE-SET,Ⓜ️ 微软,Ⓜ️ 微软苹果
   - RULE-SET,🚀 节点选择,🚀 节点选择
-  - RULE-SET,🎯 全球直连,🎯 全球直连
+  - RULE-SET,🎯 直连1,🎯 全球直连
+  - RULE-SET,🎯 直连2,🎯 全球直连
   - MATCH,🐟 漏网之鱼
