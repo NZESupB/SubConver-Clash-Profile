@@ -113,76 +113,43 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
 
 proxy-groups:
-  # 注意此处的「use」而不是「proxies」，当然也可以不用在此先嵌套一个策略组进行选择，可以直接使用，如
-  #
-  # # 代理节点选择
-  # - name: "PROXY"
-  #   type: select
-  #   use:
-  #     - DuckDuckGo # 嵌套使用订阅节点策略组
-  #   proxies:
-  #     - Fallback
-  #     - 1
-  #     - 2
-  #     - 3
-  #
-  # 但如果订阅节点很多选起来就很麻烦，不如先嵌套一个策略组进行手动或自动的选择。
-
-  # 手动选择订阅节点
-  - name: "DuckDuckGo"
-    type: select # 亦可使用 fallback 或 load-balance
-    use: # 注意此处是「use」
-      - DuckDuckGoList # 这是上面「proxy-providers」的名称
-
-  # - name: "US"
-  #   type: select # 亦可使用 fallback 或 load-balance
-  #   use: # 注意此处是「use」
-  #     - DuckDuckGoUS # 这是上面「proxy-providers」的名称
-
-  # Fallback 比较实用的策略组类型，用于测试服务器节点的可用性，当第一个节点不可用时切换到第二个，以此类推。
-  - name: "Fallback"
-    type: fallback
-    proxies:
-      - 1
-      - 2
-      - 3
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 300
-
-  # 代理节点选择
-  - name: "PROXY"
+  - name: "🚀 节点选择"
     type: select
+    use:
     proxies:
-      - Fallback
-      - 1
-      - 2
-      - 3
-      - DuckDuckGo # 嵌套使用订阅节点策略组
-
-  # 白名单模式 PROXY, 黑名单模式 DIRECT, 不知道别动
-  - name: "MATCH"
+      - 🇭🇰 香港
+      - 🇯🇵 日本
+      - 🇺🇲 美国
+      - 🇹🇼 台湾
+      - 🇰🇷 韩国
+      - 🎯 全球直连
+  - name: "🎮 游戏娱乐"
     type: select
+    use:
+      - SSRCloud_Game
     proxies:
-      - PROXY
-      - DIRECT
-
-  # 国际流媒体服务
-  - name: "Streaming"
+      - 🇭🇰 香港
+      - 🇯🇵 日本
+      - 🇺🇲 美国
+      - 🇹🇼 台湾
+  - name: "🌍 国外媒体"
     type: select
+    use:
     proxies:
-      - PROXY
-      - 1
-      - 2
-      - 3
-      # - US
-
-  # 中国流媒体服务（面向海外版本）
-  # 用于观看部分国内流媒体面向港澳台的地区的限定内容，此处应放港澳台节点，如果没有此需求可删除此处策略组及相关规则
-  - name: "StreamingSE"
+      - 🚀 节点选择
+      - 🇭🇰 香港
+      - 🇯🇵 日本
+      - 🇺🇲 美国
+      - 🇸🇬 新加坡
+      - 🇬🇧 英国
+      - 🎯 全球直连
+  - name: "🎶 网易云音乐"
     type: select
+    use:
+      - NetEase_Proxy
+      - SSRCloud_CN
     proxies:
-      - DIRECT
-      - 2
+      - 🎯 全球直连
 
 # 关于 Rule Provider 请查阅：https://lancellc.gitbook.io/clash/clash-config-file/rule-provider
 
@@ -238,18 +205,7 @@ rule-providers:
 
 # 规则
 rules:
-  # Unbreak
-  - RULE-SET,Unbreak,DIRECT
-
-  # Global Area Network
-
-  # (Streaming Media)
-  - RULE-SET,Streaming,Streaming
-
-  # (StreamingSE)
-  - RULE-SET,StreamingSE,StreamingSE
-
-  # (DNS Cache Pollution) / (IP Blackhole) / (Region-Restricted Access Denied) / (Network Jitter)
+  - RULE-SET,ChinaIP,🎯 全球直连
   - RULE-SET,Global,PROXY
 
   # China Area Network
@@ -262,13 +218,4 @@ rules:
   - IP-CIDR,127.0.0.0/8,DIRECT
   - IP-CIDR,100.64.0.0/10,DIRECT
   - IP-CIDR,224.0.0.0/4,DIRECT
-
-  # （可选）使用来自 ipipdotnet 的 ChinaIP 以解决数据不准确的问题，使用 ChinaIP.yaml 时可禁用下列直至（包括）「GEOIP,CN」规则
-  # - RULE-SET,ChinaIP,DIRECT
-  # Tencent
-  - IP-CIDR,119.28.28.28/32,DIRECT
-  - IP-CIDR,182.254.116.0/24,DIRECT
-  # GeoIP China
-  - GEOIP,CN,DIRECT
-
-  - MATCH,MATCH
+  - MATCH,🐟 漏网之鱼
