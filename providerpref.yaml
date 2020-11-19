@@ -57,29 +57,56 @@ proxy-providers:
       enable: true
       interval: 43200 #半天
       url: http://www.gstatic.com/generate_204
-  SSRCloud_US: #「薯条」香港节点
+  SSRCloud_US: #「薯条」美国节点
     type: http
-    url: "http://127.0.0.1:25500/clash?url= sub &exclude=游戏&include=香港"
+    url: "http://127.0.0.1:25500/clash?url= sub &include=美国"
     interval: 3600
     path: ./Proxy/SSRCloud_HK.yaml
     health-check:
       enable: true
       interval: 43200 #半天
       url: http://www.gstatic.com/generate_204 
-  SSRCloud_SGP: #「薯条」香港节点
+  SSRCloud_SGP: #「薯条」新加坡节点
     type: http
-    url: "http://127.0.0.1:25500/clash?url= sub &exclude=游戏&include=香港"
+    url: "http://127.0.0.1:25500/clash?url= sub &include=新加坡"
     interval: 3600
     path: ./Proxy/SSRCloud_HK.yaml
     health-check:
       enable: true
       interval: 43200 #半天
       url: http://www.gstatic.com/generate_204
-  SSRCloud_HK: #「薯条」香港节点
+  SSRCloud_JP: #「薯条」日本节点
     type: http
-    url: "http://127.0.0.1:25500/clash?url= sub &exclude=游戏&include=香港"
+    url: "http://127.0.0.1:25500/clash?url= sub &include=日本"
     interval: 3600
     path: ./Proxy/SSRCloud_HK.yaml
+    health-check:
+      enable: true
+      interval: 43200 #半天
+      url: http://www.gstatic.com/generate_204
+  SSRCloud_UK: #「薯条」英国节点
+    type: http
+    url: "http://127.0.0.1:25500/clash?url= sub &include=英国"
+    interval: 3600
+    path: ./Proxy/SSRCloud_HK.yaml
+    health-check:
+      enable: true
+      interval: 43200 #半天
+      url: http://www.gstatic.com/generate_204
+  SSRCloud_CN: #「薯条」回国节点
+    type: http
+    url: "http://127.0.0.1:25500/clash?url= sub &include=回国"
+    interval: 3600
+    path: ./Proxy/SSRCloud_HK.yaml
+    health-check:
+      enable: true
+      interval: 43200 #半天
+      url: http://www.gstatic.com/generate_204
+  NetEase_Proxy: #网易云节点
+    type: http
+    url: "https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/NetEaseSub"
+    interval: 3600
+    path: ./Proxy/NetEase_Proxy.yaml
     health-check:
       enable: true
       interval: 43200 #半天
