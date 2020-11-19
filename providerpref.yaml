@@ -41,7 +41,7 @@ proxies:
 proxy-providers:
   SSRCloud_HK: #「薯条」香港节点
     type: http
-    url: "http://127.0.0.1:25500/clash?url= sub &exclude=游戏&include=香港"
+    url: "http://127.0.0.1:25500/clash?url= sub &exclude=游戏&include=香港&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
     path: ./Proxy/SSRCloud_HK.yaml
     health-check:
@@ -50,7 +50,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   SSRCloud_Game: #「薯条」游戏节点
     type: http
-    url: "http://127.0.0.1:25500/clash?url= sub &include=游戏&udp=true"
+    url: "http://127.0.0.1:25500/clash?url= sub &include=游戏&udp=true&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
     path: ./Proxy/SSRCloud_Game.yaml
     health-check:
@@ -59,7 +59,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   SSRCloud_US: #「薯条」美国节点
     type: http
-    url: "http://127.0.0.1:25500/clash?url= sub &include=美国"
+    url: "http://127.0.0.1:25500/clash?url= sub &include=美国&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
     path: ./Proxy/SSRCloud_US.yaml
     health-check:
@@ -68,7 +68,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204 
   SSRCloud_SGP: #「薯条」新加坡节点
     type: http
-    url: "http://127.0.0.1:25500/clash?url= sub &include=新加坡"
+    url: "http://127.0.0.1:25500/clash?url= sub &include=新加坡&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
     path: ./Proxy/SSRCloud_SGP.yaml
     health-check:
@@ -77,7 +77,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   SSRCloud_JP: #「薯条」日本节点
     type: http
-    url: "http://127.0.0.1:25500/clash?url= sub &include=日本"
+    url: "http://127.0.0.1:25500/clash?url= sub &include=日本&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
     path: ./Proxy/SSRCloud_JP.yaml
     health-check:
@@ -86,7 +86,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   SSRCloud_UK: #「薯条」英国节点
     type: http
-    url: "http://127.0.0.1:25500/clash?url= sub &include=英国"
+    url: "http://127.0.0.1:25500/clash?url= sub &include=英国&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
     path: ./Proxy/SSRCloud_UK.yaml
     health-check:
@@ -95,7 +95,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   SSRCloud_CN: #「薯条」回国节点
     type: http
-    url: "http://127.0.0.1:25500/clash?url= sub &include=回国"
+    url: "http://127.0.0.1:25500/clash?url= sub &include=回国&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
     path: ./Proxy/SSRCloud_CN.yaml
     health-check:
