@@ -296,7 +296,7 @@ rule-providers:
     type: http 
     behavior: classical
     path: ./RuleSet/Japan.yaml
-    url: https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/Myrules/MyJapan.yaml
+    url: https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/Myrules/RuleSet/MyJapan.yaml
     interval: 86400
   🎮 游戏娱乐:
     type: http 
