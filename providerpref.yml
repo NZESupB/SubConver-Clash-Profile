@@ -21,28 +21,6 @@ hosts:
   # '*.clash.dev': 127.0.0.1
   # '.dev': 127.0.0.1
   # 'alpha.clash.dev': '::1'
-#透明代理配置
-dns:
-  enable: false
-  ipv6: false
-  listen: 0.0.0.0:53
-  enhanced-mode: redir-host # redir-host fake-ip
-  # fake-ip-range: 198.18.0.1/16
-  nameserver:
-    - https://162.159.46.1/dns-query
-    - https://dns.rubyfish.cn/dns-query
-    #- 119.29.29.29
-    #- 117.50.11.11
-    #- 52.80.66.66
-    - https://162.14.13.12/dns-query
-    - https://162.159.36.1/dns-query
-  fallback:
-    - https://1.1.1.1/dns-query
-    - https://8.8.8.8/dns-query
-    - https://1.0.0.1/dns-query
-    - https://162.159.36.1/dns-query
-    - https://162.159.46.1/dns-query
-    - https://162.14.13.12/dns-query
     
 proxies:
 proxy-providers:
@@ -111,7 +89,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   NetEase_Proxy: #网易云节点
     type: http
-    url: "https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/NetEaseSub"
+    url: "https://sub.nxnow.cf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FNZESupB%2FSubConver-Clash-Profile%2Fmaster%2FNetEaseSub%7C"
     interval: 3600
     path: ./Proxy/NetEase_Proxy.yaml
     health-check:
