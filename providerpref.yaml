@@ -1,5 +1,5 @@
 mixed-port: 7890
-# 本地SOCKS5 / HTTP（S）服务器的身份验证
+# 局域网共享身份验证
 # authentication:
 #  - "user1:pass1"
 allow-lan: true
@@ -21,22 +21,29 @@ hosts:
   # '*.clash.dev': 127.0.0.1
   # '.dev': 127.0.0.1
   # 'alpha.clash.dev': '::1'
+#透明代理配置
 dns:
   enable: false
+  ipv6: false
   listen: 0.0.0.0:53
-  # ipv6: false # when false, response to AAAA questions will be empty
-
-  # These nameservers are used to resolve the DNS nameserver hostnames below.
-  # Specify IP addresses only
-  default-nameserver:
-    - 119.29.29.29
-    - 1.0.0.1
-  enhanced-mode: redir-host
+  enhanced-mode: redir-host # redir-host fake-ip
+  # fake-ip-range: 198.18.0.1/16
   nameserver:
-    - 119.29.29.29
+    - https://162.159.46.1/dns-query
+    - https://dns.rubyfish.cn/dns-query
+    #- 119.29.29.29
+    #- 117.50.11.11
+    #- 52.80.66.66
+    - https://162.14.13.12/dns-query
+    - https://162.159.36.1/dns-query
   fallback:
-    - https://cloudflare-dns.com/dns-query
-
+    - https://1.1.1.1/dns-query
+    - https://8.8.8.8/dns-query
+    - https://1.0.0.1/dns-query
+    - https://162.159.36.1/dns-query
+    - https://162.159.46.1/dns-query
+    - https://162.14.13.12/dns-query
+    
 proxies:
 proxy-providers:
   SSRCloud_HK: #「薯条」香港节点
