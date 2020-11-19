@@ -61,7 +61,7 @@ payload:
   DOMAIN-SUFFIX,vpsdx.com
   DOMAIN-SUFFIX,gstatic.loli.net
   DOMAIN-SUFFIX,arkoselabs.com
-  #机场官网&订阅地址
+  # > 机场订阅
   DOMAIN-SUFFIX,smyun-a.xyz
   DOMAIN-SUFFIX,cordcloud.org
   DOMAIN-SUFFIX,losadhwselfff2332dasd.xyz
@@ -71,7 +71,7 @@ payload:
   DOMAIN-SUFFIX,baipiaoyun.xyz
   DOMAIN-SUFFIX,abcloud.best
   DOMAIN-SUFFIX,tomlink.org
-  #potato
+  # > potato
   IP-CIDR,203.119.215.254/32
   IP-CIDR,101.32.76.233/32
   IP-CIDR,38.221.50.74/32
