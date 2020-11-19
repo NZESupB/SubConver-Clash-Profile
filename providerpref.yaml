@@ -61,7 +61,7 @@ proxy-providers:
     type: http
     url: "http://127.0.0.1:25500/clash?url= sub &include=美国"
     interval: 3600
-    path: ./Proxy/SSRCloud_HK.yaml
+    path: ./Proxy/SSRCloud_US.yaml
     health-check:
       enable: true
       interval: 43200 #半天
@@ -70,7 +70,7 @@ proxy-providers:
     type: http
     url: "http://127.0.0.1:25500/clash?url= sub &include=新加坡"
     interval: 3600
-    path: ./Proxy/SSRCloud_HK.yaml
+    path: ./Proxy/SSRCloud_SGP.yaml
     health-check:
       enable: true
       interval: 43200 #半天
@@ -79,7 +79,7 @@ proxy-providers:
     type: http
     url: "http://127.0.0.1:25500/clash?url= sub &include=日本"
     interval: 3600
-    path: ./Proxy/SSRCloud_HK.yaml
+    path: ./Proxy/SSRCloud_JP.yaml
     health-check:
       enable: true
       interval: 43200 #半天
@@ -88,7 +88,7 @@ proxy-providers:
     type: http
     url: "http://127.0.0.1:25500/clash?url= sub &include=英国"
     interval: 3600
-    path: ./Proxy/SSRCloud_HK.yaml
+    path: ./Proxy/SSRCloud_UK.yaml
     health-check:
       enable: true
       interval: 43200 #半天
@@ -97,7 +97,7 @@ proxy-providers:
     type: http
     url: "http://127.0.0.1:25500/clash?url= sub &include=回国"
     interval: 3600
-    path: ./Proxy/SSRCloud_HK.yaml
+    path: ./Proxy/SSRCloud_CN.yaml
     health-check:
       enable: true
       interval: 43200 #半天
@@ -150,7 +150,73 @@ proxy-groups:
       - SSRCloud_CN
     proxies:
       - 🎯 全球直连
-
+  - name: "📲 电报信息"
+    type: select
+    use:
+    proxies:
+      - 🇸🇬 新加坡
+      - 🇭🇰 香港
+  - name: "🌏 国内媒体"
+    type: select
+    use:
+    proxies:
+      - 🎯 全球直连
+      - 🇹🇼 台湾
+      - 🇭🇰 香港
+      - 🚀 节点选择
+  - name: "Ⓜ️ 微软苹果"
+    type: select
+    use:
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+      - 🇭🇰 香港
+      - 🇯🇵 日本
+      - 🇺🇲 美国
+  - name: "🇭🇰 香港"
+    type: select
+    use:
+      - SSRCloud_UK
+    proxies:
+  - name: "🇯🇵 日本"
+    type: select
+    use:
+      - SSRCloud_JP
+  - name: "🇺🇲 美国"
+    type: select
+    use:
+      - SSRCloud_US
+  - name: "🇹🇼 台湾"
+    type: select
+    use:
+      - SSRCloud_HK
+  - name: "🇸🇬 新加坡"
+    type: select
+    use:
+      - SSRCloud_SGP
+#  - name: "🇰🇷 韩国"
+#    type: select
+#    use:
+#      - SSRCloud_KR
+  - name: "🇬🇧 英国"
+    type: select
+    use:
+      - SSRCloud_UK
+  - name: "🎯 全球直连"
+    type: select
+    proxies:
+      - DIRECT
+  - name: "🛑 广告拦截"
+    type: select
+    proxies:
+      - REJECT
+      - 🚀 节点选择
+      - DIRECT
+  - name: "🐟 漏网之鱼"
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择      
 # 关于 Rule Provider 请查阅：https://lancellc.gitbook.io/clash/clash-config-file/rule-provider
 
 rule-providers:
