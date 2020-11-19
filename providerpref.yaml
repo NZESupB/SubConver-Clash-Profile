@@ -220,12 +220,6 @@ proxy-groups:
 # 关于 Rule Provider 请查阅：https://lancellc.gitbook.io/clash/clash-config-file/rule-provider
 
 rule-providers:
-# name: # Provider 名称
-#   type: http # http 或 file
-#   behavior: classical # 或 ipcidr、domain
-#   path: # 文件路径
-#   url: # 只有当类型为 HTTP 时才可用，您不需要在本地空间中创建新文件。
-#   interval: # 自动更新间隔，仅在类型为 HTTP 时可用
   🎶 网易云音乐:
     type: http
     behavior: classical
@@ -298,6 +292,26 @@ rule-providers:
     path: ./RuleSet/ChinaIP.yaml
     url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/ChinaIP.yaml
     interval: 86400
+  🇯🇵 日本:
+    type: http 
+    behavior: classical
+    path: ./RuleSet/Japan.yaml
+    url: https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/Myrules/MyJapan.yaml
+    interval: 86400
+  🎮 游戏娱乐:
+    type: http 
+    behavior: classical
+    path: ./RuleSet/GameOrDownload.yaml
+    url: https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/Myrules/RuleSet/GameOrDownload.yaml
+    interval: 86400
+  🌍 Myrule:
+    type: http 
+    behavior: classical
+    path: ./RuleSet/Myrule.yaml
+    url: https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/Myrules/RuleSet/Myrule.yaml
+    interval: 86400
+    
+   
 
 # 规则
 rules:
@@ -313,7 +327,6 @@ rules:
   - IP-CIDR6,fe80::/10,no-resolve,DIRECT
   - IP-CIDR6,fd00::/8,no-resolve,DIRECT
   - DOMAIN-SUFFIX,local,DIRECT
-  
   - RULE-SET,🎶 网易云音乐,🎶 网易云音乐
   - RULE-SET,📲 电报信息,📲 电报信息
   - RULE-SET,🌍 国外媒体,🌍 国外媒体
@@ -324,7 +337,10 @@ rules:
   - RULE-SET,📲 电报信息,📲 电报信息
   - RULE-SET,🍎 苹果,Ⓜ️ 微软苹果 
   - RULE-SET,Ⓜ️ 微软,Ⓜ️ 微软苹果
+  - RULE-SET,🇯🇵 日本,🇯🇵 日本
+  - RULE-SET,🎮 游戏娱乐,🎮 游戏娱乐
   - RULE-SET,🚀 节点选择,🚀 节点选择
+  - RULE-SET,🌍 Myrule,🚀 节点选择  
   - RULE-SET,🎯 直连1,🎯 全球直连
   - RULE-SET,🎯 直连2,🎯 全球直连
   - MATCH,🐟 漏网之鱼
