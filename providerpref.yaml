@@ -295,7 +295,7 @@ rule-providers:
     interval: 86400
   🎯 直连2:
     type: http 
-    behavior: classical
+    behavior: ipcidr
     path: ./RuleSet/ChinaIP.yaml
     url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/ChinaIP.yaml
     interval: 86400
