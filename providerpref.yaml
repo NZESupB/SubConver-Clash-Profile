@@ -57,6 +57,33 @@ proxy-providers:
       enable: true
       interval: 43200 #半天
       url: http://www.gstatic.com/generate_204
+  SSRCloud_US: #「薯条」香港节点
+    type: http
+    url: "http://127.0.0.1:25500/clash?url= sub &exclude=游戏&include=香港"
+    interval: 3600
+    path: ./Proxy/SSRCloud_HK.yaml
+    health-check:
+      enable: true
+      interval: 43200 #半天
+      url: http://www.gstatic.com/generate_204 
+  SSRCloud_SGP: #「薯条」香港节点
+    type: http
+    url: "http://127.0.0.1:25500/clash?url= sub &exclude=游戏&include=香港"
+    interval: 3600
+    path: ./Proxy/SSRCloud_HK.yaml
+    health-check:
+      enable: true
+      interval: 43200 #半天
+      url: http://www.gstatic.com/generate_204
+  SSRCloud_HK: #「薯条」香港节点
+    type: http
+    url: "http://127.0.0.1:25500/clash?url= sub &exclude=游戏&include=香港"
+    interval: 3600
+    path: ./Proxy/SSRCloud_HK.yaml
+    health-check:
+      enable: true
+      interval: 43200 #半天
+      url: http://www.gstatic.com/generate_204
 
 proxy-groups:
   # 注意此处的「use」而不是「proxies」，当然也可以不用在此先嵌套一个策略组进行选择，可以直接使用，如
