@@ -190,28 +190,29 @@ proxy-groups:
     type: select
     use:
       - SSRCloud_HK
+      - Proxy_HK
     proxies:
   - name: "🇯🇵 日本"
     type: select
     use:
-      - SSRCloud_JP
+      - Proxy_JP
   - name: "🇺🇲 美国"
     type: select
     use:
-      - SSRCloud_US
+      - Proxy_US
   - name: "🇹🇼 台湾"
     type: select
     use:
     proxies:
-      - DIRECT
+      - Proxy_TW
   - name: "🇸🇬 新加坡"
     type: select
     use:
-      - SSRCloud_SGP
+      - Proxy_SGP
   - name: "🇬🇧 英国"
     type: select
     use:
-      - SSRCloud_UK
+      - Proxy_UK
   - name: "🎯 全球直连"
     type: select
     proxies:
