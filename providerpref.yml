@@ -89,7 +89,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   NetEase_Proxy: #网易云节点
     type: http
-    url: "https://sub.nxnow.cf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FNZESupB%2FSubConver-Clash-Profile%2Fmaster%2FNetEaseSub%7C"
+    url: "https://sub.nxnow.cf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FNZESupB%2FSubConver-Clash-Profile%2Fmaster%2FNetEaseSub"
     interval: 3600
     path: ./Proxy/NetEase_Proxy.yaml
     health-check:
