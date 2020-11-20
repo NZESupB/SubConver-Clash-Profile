@@ -49,7 +49,7 @@ proxy-providers:
     type: http
     url: "https://sub.nxnow.cf/sub?target=clash&url= sub &include=美国&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
-    path: ./Proxy/SSRCloud_US.yaml
+    path: ./Proxy/Proxy_HK.yaml
     interval: 43200
     health-check:
       enable: true
@@ -59,7 +59,7 @@ proxy-providers:
     type: http
     url: "https://sub.nxnow.cf/sub?target=clash&url= sub &include=美国&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
-    path: ./Proxy/SSRCloud_US.yaml
+    path: ./Proxy/Proxy_US.yaml
     interval: 43200
     health-check:
       enable: true
@@ -69,7 +69,7 @@ proxy-providers:
     type: http
     url: "https://sub.nxnow.cf/sub?target=clash&url= sub &include=新加坡&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
-    path: ./Proxy/SSRCloud_SGP.yaml
+    path: ./Proxy/Proxy_SGP.yaml
     interval: 43200
     health-check:
       enable: true
@@ -79,7 +79,7 @@ proxy-providers:
     type: http
     url: "https://sub.nxnow.cf/sub?target=clash&url= sub &include=日本&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
-    path: ./Proxy/SSRCloud_JP.yaml
+    path: ./Proxy/Proxy_JP.yaml
     interval: 43200
     health-check:
       enable: true
@@ -89,17 +89,17 @@ proxy-providers:
     type: http
     url: "https://sub.nxnow.cf/sub?target=clash&url= sub &include=台湾&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
-    path: ./Proxy/SSRCloud_UK.yaml
+    path: ./Proxy/Proxy_TW.yaml
     interval: 43200
     health-check:
       enable: true
       interval: 3600
       url: http://www.gstatic.com/generate_204 
-  Proxy_UK: #「薯条」英国节点
+  Proxy_UK: # 英国节点
     type: http
     url: "https://sub.nxnow.cf/sub?target=clash&url= sub &include=英国&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
-    path: ./Proxy/SSRCloud_UK.yaml
+    path: ./Proxy/Proxy_UK.yaml
     interval: 43200
     health-check:
       enable: true
