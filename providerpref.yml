@@ -43,51 +43,69 @@ proxy-providers:
       enable: false
       interval: 43200 #半天
       url: http://www.gstatic.com/generate_204
-  SSRCloud_US: #「薯条」美国节点
+  Proxy_HK: #香港节点
     type: http
     url: "https://sub.nxnow.cf/sub?target=clash&url= sub &include=美国&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
     path: ./Proxy/SSRCloud_US.yaml
     health-check:
-      enable: false
-      interval: 43200 #半天
+      enable: true
+      interval: 3600
       url: http://www.gstatic.com/generate_204 
-  SSRCloud_SGP: #「薯条」新加坡节点
+  Proxy_US: #美国节点
+    type: http
+    url: "https://sub.nxnow.cf/sub?target=clash&url= sub &include=美国&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    interval: 3600
+    path: ./Proxy/SSRCloud_US.yaml
+    health-check:
+      enable: true
+      interval: 3600
+      url: http://www.gstatic.com/generate_204 
+  Proxy_SGP: #「薯条」新加坡节点
     type: http
     url: "https://sub.nxnow.cf/sub?target=clash&url= sub &include=新加坡&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
     path: ./Proxy/SSRCloud_SGP.yaml
     health-check:
-      enable: false
-      interval: 43200 #半天
-      url: http://www.gstatic.com/generate_204
-  SSRCloud_JP: #「薯条」日本节点
+      enable: true
+      interval: 3600
+      url: http://www.gstatic.com/generate_204 
+  Proxy_JP: #「薯条」日本节点
     type: http
     url: "https://sub.nxnow.cf/sub?target=clash&url= sub &include=日本&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
     path: ./Proxy/SSRCloud_JP.yaml
     health-check:
-      enable: false
-      interval: 43200 #半天
-      url: http://www.gstatic.com/generate_204
-  SSRCloud_UK: #「薯条」英国节点
+      enable: true
+      interval: 3600
+      url: http://www.gstatic.com/generate_204 
+  Proxy_TW: # 台湾节点
+    type: http
+    url: "https://sub.nxnow.cf/sub?target=clash&url= sub &include=台湾&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    interval: 3600
+    path: ./Proxy/SSRCloud_UK.yaml
+    health-check:
+      enable: true
+      interval: 3600
+      url: http://www.gstatic.com/generate_204 
+  Proxy_UK: #「薯条」英国节点
     type: http
     url: "https://sub.nxnow.cf/sub?target=clash&url= sub &include=英国&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
     path: ./Proxy/SSRCloud_UK.yaml
     health-check:
-      enable: false
-      interval: 43200 #半天
-      url: http://www.gstatic.com/generate_204
+      enable: true
+      interval: 3600
+      url: http://www.gstatic.com/generate_204 
   SSRCloud_CN: #「薯条」回国节点
     type: http
     url: "https://sub.nxnow.cf/sub?target=clash&url= sub &include=回国&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
     path: ./Proxy/SSRCloud_CN.yaml
-    health-check:
-      enable: false
-      interval: 43200 #半天
-      url: http://www.gstatic.com/generate_204
+    #health-check:
+     # enable: false
+      #interval: 3600
+      #url: http://www.gstatic.com/generate_204 
   NetEase_Proxy: #网易云节点
     type: http
     url: "https://sub.nxnow.cf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FNZESupB%2FSubConver-Clash-Profile%2Fmaster%2FNetEaseSub"
