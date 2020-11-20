@@ -21,12 +21,13 @@ hosts:
   # '*.clash.dev': 127.0.0.1
   # '.dev': 127.0.0.1
   # 'alpha.clash.dev': '::1'
-    
+  'raw.githubusercontent.com': 151.101.76.133
+  'assets-cdn.github.com': 185.199.108.153
 proxies:
 proxy-providers:
   SSRCloud_HK: #「薯条」香港节点
     type: http
-    url: "http://127.0.0.1:25500/clash?url= sub &exclude=游戏&include=香港&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    url: "https://sub.nxnow.cf/sub?target=clash&url= sub &exclude=游戏&include=香港&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
     path: ./Proxy/SSRCloud_HK.yaml
     health-check:
@@ -35,7 +36,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   SSRCloud_Game: #「薯条」游戏节点
     type: http
-    url: "http://127.0.0.1:25500/clash?url= sub &include=游戏&udp=true&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    url: "https://sub.nxnow.cf/sub?target=clash&url= sub &include=游戏&udp=true&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
     path: ./Proxy/SSRCloud_Game.yaml
     health-check:
@@ -44,7 +45,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   SSRCloud_US: #「薯条」美国节点
     type: http
-    url: "http://127.0.0.1:25500/clash?url= sub &include=美国&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    url: "https://sub.nxnow.cf/sub?target=clash&url= sub &include=美国&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
     path: ./Proxy/SSRCloud_US.yaml
     health-check:
@@ -53,7 +54,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204 
   SSRCloud_SGP: #「薯条」新加坡节点
     type: http
-    url: "http://127.0.0.1:25500/clash?url= sub &include=新加坡&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    url: "https://sub.nxnow.cf/sub?target=clash&url= sub &include=新加坡&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
     path: ./Proxy/SSRCloud_SGP.yaml
     health-check:
@@ -62,7 +63,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   SSRCloud_JP: #「薯条」日本节点
     type: http
-    url: "http://127.0.0.1:25500/clash?url= sub &include=日本&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    url: "https://sub.nxnow.cf/sub?target=clash&url= sub &include=日本&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
     path: ./Proxy/SSRCloud_JP.yaml
     health-check:
@@ -71,7 +72,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   SSRCloud_UK: #「薯条」英国节点
     type: http
-    url: "http://127.0.0.1:25500/clash?url= sub &include=英国&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    url: "https://sub.nxnow.cf/sub?target=clash&url= sub &include=英国&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
     path: ./Proxy/SSRCloud_UK.yaml
     health-check:
@@ -80,7 +81,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   SSRCloud_CN: #「薯条」回国节点
     type: http
-    url: "http://127.0.0.1:25500/clash?url= sub &include=回国&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    url: "https://sub.nxnow.cf/sub?target=clash&url= sub &include=回国&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
     path: ./Proxy/SSRCloud_CN.yaml
     health-check:
@@ -106,7 +107,6 @@ proxy-groups:
       - 🇯🇵 日本
       - 🇺🇲 美国
       - 🇹🇼 台湾
-      #- 🇰🇷 韩国
       - 🎯 全球直连
   - name: "🎮 游戏娱乐"
     type: select
@@ -161,7 +161,7 @@ proxy-groups:
   - name: "🇭🇰 香港"
     type: select
     use:
-      - SSRCloud_UK
+      - SSRCloud_HK
     proxies:
   - name: "🇯🇵 日本"
     type: select
@@ -174,15 +174,12 @@ proxy-groups:
   - name: "🇹🇼 台湾"
     type: select
     use:
-      - SSRCloud_HK
+    proxies:
+      - DIRECT
   - name: "🇸🇬 新加坡"
     type: select
     use:
       - SSRCloud_SGP
-#  - name: "🇰🇷 韩国"
-#    type: select
-#    use:
-#      - SSRCloud_KR
   - name: "🇬🇧 英国"
     type: select
     use:
@@ -209,91 +206,91 @@ rule-providers:
     type: http
     behavior: classical
     path: ./RuleSet/NetEaseMusic.yaml
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/NetEaseMusic.yaml
+    url: https://github.nzesupb.workers.dev/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/NetEaseMusic.yaml
     interval: 86400
   📲 电报信息:
     type: http
     behavior: classical
     path: ./RuleSet/Telegram.yaml
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/Telegram/Telegram.yaml
+    url: https://github.nzesupb.workers.dev/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/Telegram/Telegram.yaml
     interval: 86400
   🌍 国外媒体:
     type: http
     behavior: classical
     path: ./RuleSet/Streaming.yaml
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Streaming.yaml
+    url: https://github.nzesupb.workers.dev/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Streaming.yaml
     interval: 86400
   🌏 国内媒体1:
     type: http 
     behavior: classical
     path: ./RuleSet/StreamingSE.yaml
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingSE.yaml
+    url: https://github.nzesupb.workers.dev/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingSE.yaml
     interval: 86400
   🌏 国内媒体2:
     type: http 
     behavior: classical
     path: ./RuleSet/StreamingCN.yaml
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingCN.yaml
+    url: https://github.nzesupb.workers.dev/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingCN.yaml
     interval: 86400
   🛑 广告拦截1:
     type: http 
     behavior: classical
     path: ./RuleSet/Advertising.yaml
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Advertising.yaml
+    url: https://github.nzesupb.workers.dev/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Advertising.yaml
     interval: 86400
   🛑 广告拦截2:
     type: http 
     behavior: classical
     path: ./RuleSet/Hijacking.yaml
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Hijacking.yaml
+    url: https://github.nzesupb.workers.dev/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Hijacking.yaml
     interval: 86400
   🚀 节点选择:
     type: http 
     behavior: classical
     path: ./RuleSet/Global.yaml
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Global.yaml
+    url: https://github.nzesupb.workers.dev/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Global.yaml
     interval: 86400
   🍎 苹果:
     type: http 
     behavior: classical
     path: ./RuleSet/Apple.yaml
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Apple.yaml
+    url: https://github.nzesupb.workers.dev/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Apple.yaml
     interval: 86400
   Ⓜ️ 微软:
     type: http 
     behavior: classical
     path: ./RuleSet/Microsoft.yaml
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Microsoft.yaml
+    url: https://github.nzesupb.workers.dev/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Microsoft.yaml
     interval: 86400
   🎯 直连1:
     type: http 
     behavior: classical
     path: ./RuleSet/China.yaml
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml
+    url: https://github.nzesupb.workers.dev/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml
     interval: 86400
   🎯 直连2:
     type: http 
     behavior: ipcidr
     path: ./RuleSet/ChinaIP.yaml
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/ChinaIP.yaml
+    url: https://github.nzesupb.workers.dev/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/ChinaIP.yaml
     interval: 86400
   🇯🇵 日本:
     type: http 
     behavior: classical
     path: ./RuleSet/Japan.yaml
-    url: https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/Myrules/RuleSet/MyJapan.yaml
+    url: https://github.nzesupb.workers.dev/https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/Myrules/RuleSet/MyJapan.yaml
     interval: 86400
   🎮 游戏娱乐:
     type: http 
     behavior: classical
-    path: ./RuleSet/GameOrDownload.yaml
-    url: https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/Myrules/RuleSet/GameOrDownload.yaml
+    path: ./RuleSet/Game.yaml
+    url: https://github.nzesupb.workers.dev/https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/Myrules/RuleSet/GameOrDownload.yaml
     interval: 86400
   🌍 Myrule:
     type: http 
     behavior: classical
     path: ./RuleSet/Myrule.yaml
-    url: https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/Myrules/RuleSet/Myrule.yaml
+    url: https://github.nzesupb.workers.dev/https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/Myrules/RuleSet/Myrule.yaml
     interval: 86400
 # 规则
 rules:
@@ -304,10 +301,10 @@ rules:
   - IP-CIDR,127.0.0.0/8,DIRECT
   - IP-CIDR,100.64.0.0/10,DIRECT
   - IP-CIDR,224.0.0.0/4,DIRECT
-  - IP-CIDR6,::1/128,no-resolve,DIRECT
-  - IP-CIDR6,fc00::/7,no-resolve,DIRECT
-  - IP-CIDR6,fe80::/10,no-resolve,DIRECT
-  - IP-CIDR6,fd00::/8,no-resolve,DIRECT
+  - IP-CIDR6,::1/128,DIRECT
+  - IP-CIDR6,fc00::/7,DIRECT
+  - IP-CIDR6,fe80::/10,DIRECT
+  - IP-CIDR6,fd00::/8,DIRECT
   - DOMAIN-SUFFIX,local,DIRECT
   - RULE-SET,🎶 网易云音乐,🎶 网易云音乐
   - RULE-SET,📲 电报信息,📲 电报信息
