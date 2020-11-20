@@ -30,7 +30,7 @@ proxy-providers:
     interval: 3600
     path: ./Proxy/SSRCloud_HK.yaml
     health-check:
-      enable: true
+      enable: false
       interval: 43200 #半天
       url: http://www.gstatic.com/generate_204
   SSRCloud_Game: #「薯条」游戏节点
@@ -39,7 +39,7 @@ proxy-providers:
     interval: 3600
     path: ./Proxy/SSRCloud_Game.yaml
     health-check:
-      enable: true
+      enable: false
       interval: 43200 #半天
       url: http://www.gstatic.com/generate_204
   SSRCloud_US: #「薯条」美国节点
@@ -48,7 +48,7 @@ proxy-providers:
     interval: 3600
     path: ./Proxy/SSRCloud_US.yaml
     health-check:
-      enable: true
+      enable: false
       interval: 43200 #半天
       url: http://www.gstatic.com/generate_204 
   SSRCloud_SGP: #「薯条」新加坡节点
@@ -57,7 +57,7 @@ proxy-providers:
     interval: 3600
     path: ./Proxy/SSRCloud_SGP.yaml
     health-check:
-      enable: true
+      enable: false
       interval: 43200 #半天
       url: http://www.gstatic.com/generate_204
   SSRCloud_JP: #「薯条」日本节点
@@ -66,7 +66,7 @@ proxy-providers:
     interval: 3600
     path: ./Proxy/SSRCloud_JP.yaml
     health-check:
-      enable: true
+      enable: false
       interval: 43200 #半天
       url: http://www.gstatic.com/generate_204
   SSRCloud_UK: #「薯条」英国节点
@@ -75,7 +75,7 @@ proxy-providers:
     interval: 3600
     path: ./Proxy/SSRCloud_UK.yaml
     health-check:
-      enable: true
+      enable: false
       interval: 43200 #半天
       url: http://www.gstatic.com/generate_204
   SSRCloud_CN: #「薯条」回国节点
@@ -84,7 +84,7 @@ proxy-providers:
     interval: 3600
     path: ./Proxy/SSRCloud_CN.yaml
     health-check:
-      enable: true
+      enable: false
       interval: 43200 #半天
       url: http://www.gstatic.com/generate_204
   NetEase_Proxy: #网易云节点
@@ -93,7 +93,7 @@ proxy-providers:
     interval: 3600
     path: ./Proxy/NetEase_Proxy.yaml
     health-check:
-      enable: true
+      enable: false
       interval: 43200 #半天
       url: http://www.gstatic.com/generate_204
 
