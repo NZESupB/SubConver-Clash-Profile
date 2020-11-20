@@ -30,24 +30,27 @@ proxy-providers:
     url: "https://sub.nxnow.cf/sub?target=clash&url= sub &exclude=游戏&include=香港&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
     path: ./Proxy/SSRCloud_HK.yaml
+    interval: 43200
     health-check:
       enable: false
-      interval: 43200 #半天
+      interval: 43200
       url: http://www.gstatic.com/generate_204
   SSRCloud_Game: #「薯条」游戏节点
     type: http
     url: "https://sub.nxnow.cf/sub?target=clash&url= sub &include=游戏&udp=true&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
     path: ./Proxy/SSRCloud_Game.yaml
+    interval: 43200
     health-check:
       enable: false
-      interval: 43200 #半天
+      interval: 43200
       url: http://www.gstatic.com/generate_204
   Proxy_HK: #香港节点
     type: http
     url: "https://sub.nxnow.cf/sub?target=clash&url= sub &include=美国&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
     path: ./Proxy/SSRCloud_US.yaml
+    interval: 43200
     health-check:
       enable: true
       interval: 3600
@@ -57,6 +60,7 @@ proxy-providers:
     url: "https://sub.nxnow.cf/sub?target=clash&url= sub &include=美国&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
     path: ./Proxy/SSRCloud_US.yaml
+    interval: 43200
     health-check:
       enable: true
       interval: 3600
@@ -66,6 +70,7 @@ proxy-providers:
     url: "https://sub.nxnow.cf/sub?target=clash&url= sub &include=新加坡&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
     path: ./Proxy/SSRCloud_SGP.yaml
+    interval: 43200
     health-check:
       enable: true
       interval: 3600
@@ -75,6 +80,7 @@ proxy-providers:
     url: "https://sub.nxnow.cf/sub?target=clash&url= sub &include=日本&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
     path: ./Proxy/SSRCloud_JP.yaml
+    interval: 43200
     health-check:
       enable: true
       interval: 3600
@@ -84,6 +90,7 @@ proxy-providers:
     url: "https://sub.nxnow.cf/sub?target=clash&url= sub &include=台湾&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
     path: ./Proxy/SSRCloud_UK.yaml
+    interval: 43200
     health-check:
       enable: true
       interval: 3600
@@ -93,6 +100,7 @@ proxy-providers:
     url: "https://sub.nxnow.cf/sub?target=clash&url= sub &include=英国&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
     path: ./Proxy/SSRCloud_UK.yaml
+    interval: 43200
     health-check:
       enable: true
       interval: 3600
@@ -102,15 +110,17 @@ proxy-providers:
     url: "https://sub.nxnow.cf/sub?target=clash&url= sub &include=回国&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
     path: ./Proxy/SSRCloud_CN.yaml
-    #health-check:
-     # enable: false
-      #interval: 3600
-      #url: http://www.gstatic.com/generate_204 
+    interval: 43200
+    health-check:
+      enable: false
+      interval: 3600
+      url: http://www.gstatic.com/generate_204 
   NetEase_Proxy: #网易云节点
     type: http
     url: "https://sub.nxnow.cf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FNZESupB%2FSubConver-Clash-Profile%2Fmaster%2FNetEaseSub"
     interval: 3600
     path: ./Proxy/NetEase_Proxy.yaml
+    interval: 43200
     health-check:
       enable: false
       interval: 43200 #半天
