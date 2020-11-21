@@ -32,6 +32,7 @@ payload:
   - DOMAIN-SUFFIX,crisp.chat
   - DOMAIN-KEYWORD,sourceforge
   - DOMAIN-SUFFIX,osboxes.org
+  - DOMAIN-SUFFIX,huaien.co
   - DOMAIN-SUFFIX,python.org
   - DOMAIN-SUFFIX,mixplorer.com
   - DOMAIN-SUFFIX,xda-developers.com
