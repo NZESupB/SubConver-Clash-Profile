@@ -1,0 +1,45 @@
+  AirPort1_HK:
+    type: http
+    url: "sub1&include=香港&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    interval: 3600
+    path: ./Proxy/AirPort1_HK.yaml
+    health-check:
+      enable: true
+      interval: 3600
+      url: http://www.gstatic.com/generate_204 
+  AirPort1_US:
+    type: http
+    url: "sub1&include=美国&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    interval: 3600
+    path: ./Proxy/AirPort1_US.yaml
+    health-check:
+      enable: true
+      interval: 3600
+      url: http://www.gstatic.com/generate_204 
+  AirPort1_SGP:
+    type: http
+    url: "sub1&include=新加坡&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    interval: 3600
+    path: ./Proxy/AirPort1_SGP.yaml
+    health-check:
+      enable: true
+      interval: 3600
+      url: http://www.gstatic.com/generate_204
+  AirPort1_JP:
+    type: http
+    url: "sub1&include=日本&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    interval: 3600
+    path: ./Proxy/AirPort1_JP.yaml
+    health-check:
+      enable: true
+      interval: 3600
+      url: http://www.gstatic.com/generate_204
+  AirPort1_TW:
+    type: http
+    url: "sub1&include=台湾&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    interval: 3600
+    path: ./Proxy/AirPort1_TW.yaml
+    health-check:
+      enable: true
+      interval: 3600
+      url: http://www.gstatic.com/generate_204
