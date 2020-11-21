@@ -21,107 +21,198 @@ hosts:
   # '*.clash.dev': 127.0.0.1
   # '.dev': 127.0.0.1
   # 'alpha.clash.dev': '::1'
+    
 proxies:
 proxy-providers:
-  SSRCloud_HK: #「薯条」香港节点
+  SSRCloud_HK:
     type: http
-    url: "https://sub.nxnow.cf/sub?target=clash&url= sub &exclude=游戏&include=香港&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    url: "https://hksub.nxnow.xyz/sub?target=clash&url=https://losadhwselfff2332dasd.xyz/link/2FpOP5d8PTKDDDjm?sub=2&include=香港&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
     path: ./Proxy/SSRCloud_HK.yaml
-    interval: 43200
     health-check:
       enable: false
-      interval: 43200
+      interval: 3600 #半天
       url: http://www.gstatic.com/generate_204
-  SSRCloud_Game: #「薯条」游戏节点
+  SSRCloud_HKGame:
     type: http
-    url: "https://sub.nxnow.cf/sub?target=clash&url= sub &include=游戏&udp=true&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    url: "https://hksub.nxnow.xyz/sub?target=clash&url=https://losadhwselfff2332dasd.xyz/link/2FpOP5d8PTKDDDjm?sub=2&include=阿里游戏&udp=true&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
-    path: ./Proxy/SSRCloud_Game.yaml
-    interval: 43200
+    path: ./Proxy/SSRCloud_HKGame.yaml
     health-check:
       enable: false
-      interval: 43200
+      interval: 3600 #半天
       url: http://www.gstatic.com/generate_204
-  Proxy_HK: #香港节点
+  SSRCloud_USGame:
     type: http
-    url: "https://sub.nxnow.cf/sub?target=clash&url= sub &include=美国&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    url: "https://hksub.nxnow.xyz/sub?target=clash&url=https://losadhwselfff2332dasd.xyz/link/2FpOP5d8PTKDDDjm?sub=2&include=美国游戏&udp=true&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
-    path: ./Proxy/Proxy_HK.yaml
-    interval: 43200
+    path: ./Proxy/SSRCloud_USGame.yaml
+    health-check:
+      enable: false
+      interval: 3600 #半天
+      url: http://www.gstatic.com/generate_204
+  SSRCloud_SGPGame:
+    type: http
+    url: "https://hksub.nxnow.xyz/sub?target=clash&url=https://losadhwselfff2332dasd.xyz/link/2FpOP5d8PTKDDDjm?sub=2&include=新加坡游戏&udp=true&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    interval: 3600
+    path: ./Proxy/SSRCloud_SGPGame.yaml
+    health-check:
+      enable: false
+      interval: 3600 #半天
+      url: http://www.gstatic.com/generate_204
+  AirPort1_HK:
+    type: http
+    url: "sub1&include=香港&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    interval: 3600
+    path: ./Proxy/AirPort1_HK.yaml
     health-check:
       enable: true
       interval: 3600
       url: http://www.gstatic.com/generate_204 
-  Proxy_US: #美国节点
+  AirPort1_US:
     type: http
-    url: "https://sub.nxnow.cf/sub?target=clash&url= sub &include=美国&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    url: "sub1&include=美国&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
-    path: ./Proxy/Proxy_US.yaml
-    interval: 43200
+    path: ./Proxy/AirPort1_US.yaml
     health-check:
       enable: true
       interval: 3600
       url: http://www.gstatic.com/generate_204 
-  Proxy_SGP: #「薯条」新加坡节点
+  AirPort1_SGP:
     type: http
-    url: "https://sub.nxnow.cf/sub?target=clash&url= sub &include=新加坡&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    url: "sub1&include=新加坡&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
-    path: ./Proxy/Proxy_SGP.yaml
-    interval: 43200
+    path: ./Proxy/AirPort1_SGP.yaml
+    health-check:
+      enable: true
+      interval: 3600
+      url: http://www.gstatic.com/generate_204
+  AirPort1_JP:
+    type: http
+    url: "sub1&include=日本&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    interval: 3600
+    path: ./Proxy/AirPort1_JP.yaml
+    health-check:
+      enable: true
+      interval: 3600
+      url: http://www.gstatic.com/generate_204
+  AirPort1_TW:
+    type: http
+    url: "sub1&include=台湾&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    interval: 3600
+    path: ./Proxy/AirPort1_TW.yaml
+    health-check:
+      enable: true
+      interval: 3600
+      url: http://www.gstatic.com/generate_204
+  AirPort2_HK:
+    type: http
+    url: "sub1&include=香港&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    interval: 3600
+    path: ./Proxy/AirPort2_HK.yaml
     health-check:
       enable: true
       interval: 3600
       url: http://www.gstatic.com/generate_204 
-  Proxy_JP: #「薯条」日本节点
+  AirPort2_US:
     type: http
-    url: "https://sub.nxnow.cf/sub?target=clash&url= sub &include=日本&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    url: "sub1&include=美国&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
-    path: ./Proxy/Proxy_JP.yaml
-    interval: 43200
+    path: ./Proxy/AirPort2_US.yaml
     health-check:
       enable: true
       interval: 3600
       url: http://www.gstatic.com/generate_204 
-  Proxy_TW: # 台湾节点
+  AirPort2_SGP:
     type: http
-    url: "https://sub.nxnow.cf/sub?target=clash&url= sub &include=台湾&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    url: "sub1&include=新加坡&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
-    path: ./Proxy/Proxy_TW.yaml
-    interval: 43200
+    path: ./Proxy/AirPort2_SGP.yaml
+    health-check:
+      enable: true
+      interval: 3600
+      url: http://www.gstatic.com/generate_204
+  AirPort2_JP:
+    type: http
+    url: "sub1&include=日本&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    interval: 3600
+    path: ./Proxy/AirPort2_JP.yaml
+    health-check:
+      enable: true
+      interval: 3600
+      url: http://www.gstatic.com/generate_204
+  AirPort2_TW:
+    type: http
+    url: "sub1&include=台湾&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    interval: 3600
+    path: ./Proxy/AirPort2_TW.yaml
+    health-check:
+      enable: true
+      interval: 3600
+      url: http://www.gstatic.com/generate_204
+  AirPort3_HK:
+    type: http
+    url: "sub1&include=香港&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    interval: 3600
+    path: ./Proxy/AirPort3_HK.yaml
     health-check:
       enable: true
       interval: 3600
       url: http://www.gstatic.com/generate_204 
-  Proxy_UK: # 英国节点
+  AirPort3_US:
     type: http
-    url: "https://sub.nxnow.cf/sub?target=clash&url= sub &include=英国&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    url: "sub1&include=美国&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
-    path: ./Proxy/Proxy_UK.yaml
-    interval: 43200
+    path: ./Proxy/AirPort3_US.yaml
     health-check:
       enable: true
       interval: 3600
       url: http://www.gstatic.com/generate_204 
-  SSRCloud_CN: #「薯条」回国节点
+  AirPort3_SGP:
     type: http
-    url: "https://sub.nxnow.cf/sub?target=clash&url= sub &include=回国&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    url: "sub1&include=新加坡&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    interval: 3600
+    path: ./Proxy/AirPort3_SGP.yaml
+    health-check:
+      enable: true
+      interval: 3600
+      url: http://www.gstatic.com/generate_204
+  AirPort3_JP:
+    type: http
+    url: "sub1&include=日本&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    interval: 3600
+    path: ./Proxy/AirPort3_JP.yaml
+    health-check:
+      enable: true
+      interval: 3600
+      url: http://www.gstatic.com/generate_204
+  AirPort3_TW:
+    type: http
+    url: "sub1&include=台湾&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    interval: 3600
+    path: ./Proxy/AirPort3_TW.yaml
+    health-check:
+      enable: true
+      interval: 3600
+      url: http://www.gstatic.com/generate_204
+  SSRCloud_CN:
+    type: http
+    url: "https://hksub.nxnow.xyz/sub?target=clash&url=https://losadhwselfff2332dasd.xyz/link/2FpOP5d8PTKDDDjm?sub=2&include=回国&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
     path: ./Proxy/SSRCloud_CN.yaml
-    interval: 43200
     health-check:
       enable: false
       interval: 3600
-      url: http://www.gstatic.com/generate_204 
-  NetEase_Proxy: #网易云节点
+      url: http://www.gstatic.com/generate_204
+  NetEase_Proxy:
     type: http
     url: "https://sub.nxnow.cf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FNZESupB%2FSubConver-Clash-Profile%2Fmaster%2FNetEaseSub"
     interval: 3600
     path: ./Proxy/NetEase_Proxy.yaml
-    interval: 43200
+    interval: 3600
     health-check:
       enable: false
-      interval: 43200 #半天
+      interval: 3600 #半天
       url: http://www.gstatic.com/generate_204
 
 proxy-groups:
@@ -137,7 +228,9 @@ proxy-groups:
   - name: "🎮 游戏娱乐"
     type: select
     use:
-      - SSRCloud_Game
+      - SSRCloud_HKGame
+      - SSRCloud_SGPGame
+      - SSRCloud_USGame
     proxies:
       - 🇭🇰 香港
       - 🇯🇵 日本
@@ -152,13 +245,12 @@ proxy-groups:
       - 🇯🇵 日本
       - 🇺🇲 美国
       - 🇸🇬 新加坡
-      - 🇬🇧 英国
       - 🎯 全球直连
   - name: "🎶 网易云音乐"
     type: select
     use:
-      - NetEase_Proxy
       - SSRCloud_CN
+      - NetEase_Proxy
     proxies:
       - 🎯 全球直连
   - name: "📲 电报信息"
@@ -188,29 +280,34 @@ proxy-groups:
     type: select
     use:
       - SSRCloud_HK
-      - Proxy_HK
+      - AirPort1_HK
+      - AirPort2_HK
+      - AirPort3_HK
     proxies:
   - name: "🇯🇵 日本"
     type: select
     use:
-      - Proxy_JP
+      - AirPort1_JP
+      - AirPort2_JP
+      - AirPort3_JP
   - name: "🇺🇲 美国"
     type: select
     use:
-      - Proxy_US
+      - AirPort1_US
+      - AirPort2_US
+      - AirPort3_US
   - name: "🇹🇼 台湾"
     type: select
     use:
-    proxies:
-      - Proxy_TW
+      - AirPort1_TW
+      - AirPort2_TW
+      - AirPort3_TW
   - name: "🇸🇬 新加坡"
     type: select
     use:
-      - Proxy_SGP
-  - name: "🇬🇧 英国"
-    type: select
-    use:
-      - Proxy_UK
+      - AirPort1_SGP
+      - AirPort2_SGP
+      - AirPort3_SGP
   - name: "🎯 全球直连"
     type: select
     proxies:
@@ -322,17 +419,17 @@ rule-providers:
 # 规则
 rules:
   # Local Area Network
-  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
-  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
-  - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
-  - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
-  - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
-  - IP-CIDR,224.0.0.0/4,DIRECT,no-resolve
-  - IP-CIDR6,::1/128,DIRECT,no-resolve
-  - IP-CIDR6,fc00::/7,DIRECT,no-resolve
-  - IP-CIDR6,fe80::/10,DIRECT,no-resolve
-  - IP-CIDR6,fd00::/8,DIRECT,no-resolve
-  - DOMAIN-SUFFIX,local,DIRECT,no-resolve
+  - IP-CIDR,192.168.0.0/16,DIRECT
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT
+  - IP-CIDR,100.64.0.0/10,DIRECT
+  - IP-CIDR,224.0.0.0/4,DIRECT
+  - IP-CIDR6,::1/128,DIRECT
+  - IP-CIDR6,fc00::/7,DIRECT
+  - IP-CIDR6,fe80::/10,DIRECT
+  - IP-CIDR6,fd00::/8,DIRECT
+  - DOMAIN-SUFFIX,local,DIRECT
   - RULE-SET,🎶 网易云音乐,🎶 网易云音乐
   - RULE-SET,📲 电报信息,📲 电报信息
   - RULE-SET,🌍 国外媒体,🌍 国外媒体
