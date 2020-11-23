@@ -15,7 +15,7 @@ Netflix@*
 韓國@韩国
 狮城@新加坡
 HK@香港
-香港T@香港HTK
+香港T@香港HKT
 SG@新加坡
 TW@台湾
 US@美国
