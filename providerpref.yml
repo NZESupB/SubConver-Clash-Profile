@@ -33,7 +33,7 @@ proxy-providers:
       enable: false
       interval: 3600 #半天
       url: http://www.gstatic.com/generate_204
-  SSRCloud_HKGame:
+  SSRCloud_Game:
     type: http
     url: "https://hksub.nxnow.xyz/sub?target=clash&url=薯条sub&include=游戏加速&udp=true&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
     interval: 3600
