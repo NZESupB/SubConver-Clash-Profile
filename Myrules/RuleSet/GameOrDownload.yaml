@@ -9,6 +9,12 @@ payload:
   - DOMAIN-SUFFIX,tapdb.net
   - DOMAIN-SUFFIX,taplb.com
   - DOMAIN-SUFFIX,byethost24.com
+  - DOMAIN-KEYWORD,jp
+  - DOMAIN-SUFFIX,piapro.net
+  - DOMAIN-KEYWORD,andapp
+  - DOMAIN-KEYWORD,hekk
+  - DOMAIN-KEYWORD,merc
+  - DOMAIN-SUFFIX,ponosgames.com
   # 测速
   - DOMAIN-SUFFIX,speedtest.net
   - DOMAIN-SUFFIX,cdnst.net
