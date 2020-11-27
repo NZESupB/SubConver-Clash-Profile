@@ -62,6 +62,10 @@ payload:
   - DOMAIN-SUFFIX,vpsdx.com
   - DOMAIN-SUFFIX,gstatic.loli.net
   - DOMAIN-SUFFIX,arkoselabs.com
+  # > 国家级域名
+  - DOMAIN-KEYWORD,us
+  - DOMAIN-KEYWORD,hk
+  - DOMAIN-KEYWORD,uk
   # > 机场订阅
   - DOMAIN-SUFFIX,smyun-a.xyz
   - DOMAIN-SUFFIX,cordcloud.org
