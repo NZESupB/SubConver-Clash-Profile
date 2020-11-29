@@ -35,6 +35,7 @@ payload:
   - DOMAIN-SUFFIX,osboxes.org
   - DOMAIN-SUFFIX,huaien.co
   - DOMAIN-SUFFIX,python.org
+  - DOMAIN-SUFFIX,zetup.net
   - DOMAIN-SUFFIX,mixplorer.com
   - DOMAIN-SUFFIX,xda-developers.com
   - DOMAIN-SUFFIX,code.jquery.com
