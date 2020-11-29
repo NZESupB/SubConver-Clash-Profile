@@ -18,6 +18,7 @@ payload:
   - DOMAIN-SUFFIX,bitly.com
   - DOMAIN-SUFFIX,giphy.com
   - DOMAIN-KEYWORD,v2rayssr
+  - DOMAIN-KEYWORD,kodi
   - DOMAIN-SUFFIX,hostloc.com
   - DOMAIN-SUFFIX,nodejs.org
   - DOMAIN-SUFFIX,io-oi.me
