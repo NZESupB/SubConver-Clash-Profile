@@ -9,6 +9,7 @@ payload:
   - DOMAIN-KEYWORD,regex101
   - DOMAIN-KEYWORD,lineageos
   - DOMAIN-KEYWORD,github
+  - DOMAIN-SUFFIX,nyacdn.com
   - DOMAIN-SUFFIX,duangks.com
   - DOMAIN-SUFFIX,sprov.xyz
   - DOMAIN-SUFFIX,hostbuf.com
