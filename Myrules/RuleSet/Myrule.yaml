@@ -80,7 +80,7 @@ payload:
   - DOMAIN-SUFFIX,baipiaoyun.xyz
   - DOMAIN-SUFFIX,abcloud.best
   - DOMAIN-SUFFIX,tomlink.org
-  - DOMAIN-SUFFIX,独角兽.org
+  - DOMAIN-SUFFIX,xn--n6qx82fqwp.org
   # > Sync
   - DOMAIN-SUFFIX,config.getsync.com
   - DOMAIN-SUFFIX,config.resilio.com
