@@ -71,7 +71,7 @@ payload:
   - DOMAIN-KEYWORD,hk
   - DOMAIN-KEYWORD,uk
   # > 机场订阅
-  - DOMAIN-SUFFIX,smyun-a.xyz
+  - DOMAIN-SUFFIX,getluffy.com
   - DOMAIN-SUFFIX,cordcloud.org
   - DOMAIN-SUFFIX,losadhwselfff2332dasd.xyz
   - DOMAIN-SUFFIX,sub.tomlink.icu
