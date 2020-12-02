@@ -43,7 +43,7 @@ payload:
   - DOMAIN-SUFFIX,code.jquery.com
   - DOMAIN-SUFFIX,cablemap.info
   - DOMAIN-SUFFIX,submarinecablemap.com
-  - DOMAIN-SUFFIX,nxshell.herokuapp.com
+  - DOMAIN,nxshell.herokuapp.com
   - DOMAIN-SUFFIX,typora.io
   - DOMAIN-SUFFIX,xeton.dev
   - DOMAIN-SUFFIX,mega.co.nz
