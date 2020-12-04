@@ -12,5 +12,5 @@ mixin:
       - https://dns.alidns.com/dns-query
     fallback:
       - tls://dns.adguard.com
-      - https://dns.cloudflare.com/dns-query
+      - https://1.0.0.1/dns-query
       - tls://dns.google
