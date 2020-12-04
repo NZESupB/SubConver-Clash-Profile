@@ -5,7 +5,7 @@ mixin:
     listen: 0.0.0.0:53
     enhanced-mode: redir-host # redir-host fake-ip
     # fake-ip-range: 198.18.0.1/16
-    # DNS查询网站:https://kb.adguard.com/zh/general/dns-providers
+    # DNSSearch:https://kb.adguard.com/zh/general/dns-providers
     nameserver:
       - https://dns.pub/dns-query
       - https://dns.rubyfish.cn/dns-query
