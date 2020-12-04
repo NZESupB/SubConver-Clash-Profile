@@ -6,7 +6,6 @@ mixin:
     enhanced-mode: redir-host # redir-host fake-ip
     # fake-ip-range: 198.18.0.1/16
     nameserver:
-      - https://doh.rixcloud.dev/dns-query
       - https://162.159.46.1/dns-query
       - https://dns.rubyfish.cn/dns-query
       #- 119.29.29.29
