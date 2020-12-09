@@ -8,7 +8,13 @@ DOMAIN-SUFFIX,tap.io
 DOMAIN-SUFFIX,tapdb.net
 DOMAIN-SUFFIX,taplb.com
 DOMAIN-SUFFIX,byethost24.com
-#测速
+DOMAIN-KEYWORD,jp
+DOMAIN-SUFFIX,piapro.net
+DOMAIN-KEYWORD,andapp
+DOMAIN-KEYWORD,hekk
+DOMAIN-KEYWORD,merc
+DOMAIN-SUFFIX,ponosgames.com
+# 测速
 DOMAIN-SUFFIX,speedtest.net
 DOMAIN-SUFFIX,cdnst.net
 DOMAIN-SUFFIX,ooklaserver.net
@@ -16,12 +22,13 @@ DOMAIN-SUFFIX,hgc.com.hk
 DOMAIN-SUFFIX,fdcservers.net
 DOMAIN-SUFFIX,fast.com
 DOMAIN,speed.cloudflare.com
-#epic
+DOMAIN-SUFFIX,api.skk.moe
+# epic
 DOMAIN-SUFFIX,epicgames.com
 DOMAIN-SUFFIX,helpshift.com
 DOMAIN-SUFFIX,paragon.com
 DOMAIN-SUFFIX,unrealengine.com
-#sbeam
+# sbeam
 DOMAIN-SUFFIX,steam-chat.com
 DOMAIN-SUFFIX,steamcontent.com
 DOMAIN-SUFFIX,steamgames.com
@@ -39,7 +46,7 @@ DOMAIN,steamuserimages-a.akamaihd.net
 DOMAIN-SUFFIX,fanatical.com
 DOMAIN-SUFFIX,humblebundle.com
 DOMAIN-SUFFIX,steamcommunity.com
-#LOLPBE
+# LOLPBE
 DOMAIN-SUFFIX,riotcdn.net
 DOMAIN-SUFFIX,riotgames.com
 DOMAIN-SUFFIX,leagueoflegends.com
@@ -56,13 +63,13 @@ DOMAIN-SUFFIX,lolesports.com
 DOMAIN-SUFFIX,cds.s4a8x2q3.hwcdn.net
 DOMAIN-SUFFIX,app-measurement.com
 IP-CIDR,162.62.158.0/24
-#RiotGames
+# RiotGames
 IP-CIDR,192.64.170.0/21,no-resolve
 IP-CIDR,104.160.128.0/19,no-resolve
-#育碧
+# 育碧
 DOMAIN-KEYWORD,ubisoft
 DOMAIN-KEYWORD,ubi
-#PS
+# PS
 DOMAIN-SUFFIX,playstation.com
 DOMAIN-SUFFIX,playstation.net
 DOMAIN-SUFFIX,playstationnetwork.com
