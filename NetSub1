@@ -3,3 +3,8 @@ http=106.52.127.72:19951, tag=解锁节点2
 http=taron.top:200, tag=解锁节点3
 http=music.lolico.me:39000, tag=解锁节点4
 http=lolico.me:443, tag=解锁节点5
+tg://http?server=106.52.127.72&port=19951&remarks=网易云解锁 01
+tg://http?server=music.lolico.me&port=39000&remarks=网易云解锁 02
+tg://http?server=lolico.me&port=443&remarks=网易云解锁 03
+tg://http?server=taron.top&port=200&remarks=网易云解锁 04
+ss://YWVzLTEyOC1nY206ZGVzcGVyYWRvai5jb21fZnJlZV9wcm94eV9lbXgy@music.desperadoj.com:30003#网易云解锁 05
