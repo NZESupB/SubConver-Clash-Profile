@@ -31,7 +31,7 @@ proxy-providers:
     path: ./Proxy/SSRCloud_HK.yaml
     health-check:
       enable: false
-      interval: 3600 #半天
+      interval: 3600
       url: http://www.gstatic.com/generate_204
   SSRCloud_Game:
     type: http
@@ -40,7 +40,7 @@ proxy-providers:
     path: ./Proxy/SSRCloud_Game.yaml
     health-check:
       enable: false
-      interval: 3600 #半天
+      interval: 3600
       url: http://www.gstatic.com/generate_204
   AirPort1_HK:
     type: http
