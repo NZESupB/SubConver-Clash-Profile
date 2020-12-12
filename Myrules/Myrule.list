@@ -59,7 +59,6 @@ DOMAIN-SUFFIX,eyny.com
 DOMAIN-SUFFIX,nya-ani.me
 DOMAIN-SUFFIX,sekirei-tv.com
 DOMAIN-SUFFIX,cssgradient.io
-DOMAIN-SUFFIX,e-hentai.org
 DOMAIN-SUFFIX,oneplus.net
 DOMAIN-SUFFIX,hotbak.net
 DOMAIN-SUFFIX,larix.cc
@@ -68,6 +67,9 @@ DOMAIN-SUFFIX,gstatic.loli.net
 DOMAIN-SUFFIX,arkoselabs.com
 DOMAIN-SUFFIX,thenounproject.com
 DOMAIN-SUFFIX,starwindsoftware.com
+#GHS
+DOMAIN-SUFFIX,erocool.co
+DOMAIN-SUFFIX,e-hentai.org
 # > 国家级域名
 DOMAIN-KEYWORD,us
 DOMAIN-KEYWORD,hk
