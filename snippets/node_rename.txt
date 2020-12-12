@@ -5,6 +5,7 @@ NF@*
 Netflix Hulu HBO@*
 Netflix HBO TVB@*
 Netflix@*
+原生IP
 
 ;删除倍率
 \s?\(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@
