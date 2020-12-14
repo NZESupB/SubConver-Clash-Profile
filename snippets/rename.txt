@@ -82,6 +82,7 @@ Elastic Network Adapter 10 Anycast任播@AGA
 实验性@
  ?标准@
  ?高级@
+Legacy Magic@Legacy
 
 专线 港区TVB\/HBO\/\*解锁@*
 .*(PVCC).*(\d\d)@香港 $1 $2
