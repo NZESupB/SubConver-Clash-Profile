@@ -78,7 +78,7 @@ Elastic Network Adapter 10 Anycast任播@AGA
 伦敦电信@伦敦 电信
 中港专线@中港
 阿里@香港
-;广域网加速虚拟引擎@ AIA
+广域网加速虚拟引擎@ AIA
 实验性@
  ?标准@
  ?高级@
