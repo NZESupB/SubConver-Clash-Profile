@@ -26,7 +26,7 @@ proxies:
 proxy-providers:
   SSRCloud_HK:
     type: http
-    url: "https://hksub.nxnow.xyz/sub?target=clash&url=薯条sub&include=港&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    url: "https://hksub.nxnow.xyz/sub?target=clash&url=薯条sub&include=港&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini&list=true"
     interval: 3600
     path: ./Proxy/SSRCloud_HK.yaml
     health-check:
@@ -35,7 +35,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   SSRCloud_Game:
     type: http
-    url: "https://hksub.nxnow.xyz/sub?target=clash&url=薯条sub&include=游戏加速&udp=true&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    url: "https://hksub.nxnow.xyz/sub?target=clash&url=薯条sub&include=游戏加速&udp=true&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini&list=true"
     interval: 3600
     path: ./Proxy/SSRCloud_Game.yaml
     health-check:
@@ -44,7 +44,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   AirPort1_HK:
     type: http
-    url: "https://sub.nxnow.cf/sub?target=clash&url=sub1&include=港&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    url: "https://sub.nxnow.cf/sub?target=clash&url=sub1&include=港&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini&list=true"
     interval: 3600
     path: ./Proxy/AirPort1_HK.yaml
     health-check:
@@ -53,7 +53,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204 
   AirPort1_US:
     type: http
-    url: "https://sub.nxnow.cf/sub?target=clash&url=sub1&include=美&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    url: "https://sub.nxnow.cf/sub?target=clash&url=sub1&include=美&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini&list=true"
     interval: 3600
     path: ./Proxy/AirPort1_US.yaml
     health-check:
@@ -62,7 +62,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204 
   AirPort1_SGP:
     type: http
-    url: "https://sub.nxnow.cf/sub?target=clash&url=sub1&include=坡&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    url: "https://sub.nxnow.cf/sub?target=clash&url=sub1&include=坡&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini&list=true"
     interval: 3600
     path: ./Proxy/AirPort1_SGP.yaml
     health-check:
@@ -71,7 +71,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   AirPort1_JP:
     type: http
-    url: "https://sub.nxnow.cf/sub?target=clash&url=sub1&include=日&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    url: "https://sub.nxnow.cf/sub?target=clash&url=sub1&include=日&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini&list=true"
     interval: 3600
     path: ./Proxy/AirPort1_JP.yaml
     health-check:
@@ -80,7 +80,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   AirPort1_TW:
     type: http
-    url: "https://sub.nxnow.cf/sub?target=clash&url=sub1&include=台&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    url: "https://sub.nxnow.cf/sub?target=clash&url=sub1&include=台&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini&list=true"
     interval: 3600
     path: ./Proxy/AirPort1_TW.yaml
     health-check:
@@ -89,7 +89,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   AirPort2_HK:
     type: http
-    url: "https://sub.nxnow.cf/sub?target=clash&url=sub2&include=香&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    url: "https://sub.nxnow.cf/sub?target=clash&url=sub2&include=香&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini&list=true"
     interval: 3600
     path: ./Proxy/AirPort2_HK.yaml
     health-check:
@@ -98,7 +98,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204 
   AirPort2_US:
     type: http
-    url: "https://sub.nxnow.cf/sub?target=clash&url=sub2&include=美&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    url: "https://sub.nxnow.cf/sub?target=clash&url=sub2&include=美&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini&list=true"
     interval: 3600
     path: ./Proxy/AirPort2_US.yaml
     health-check:
@@ -107,7 +107,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204 
   AirPort2_SGP:
     type: http
-    url: "https://sub.nxnow.cf/sub?target=clash&url=sub2&include=坡&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    url: "https://sub.nxnow.cf/sub?target=clash&url=sub2&include=坡&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini&list=true"
     interval: 3600
     path: ./Proxy/AirPort2_SGP.yaml
     health-check:
@@ -116,7 +116,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   AirPort2_JP:
     type: http
-    url: "https://sub.nxnow.cf/sub?target=clash&url=sub2&include=日&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    url: "https://sub.nxnow.cf/sub?target=clash&url=sub2&include=日&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini&list=true"
     interval: 3600
     path: ./Proxy/AirPort2_JP.yaml
     health-check:
@@ -125,7 +125,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   AirPort2_TW:
     type: http
-    url: "https://sub.nxnow.cf/sub?target=clash&url=sub2&include=台&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    url: "https://sub.nxnow.cf/sub?target=clash&url=sub2&include=台&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini&list=true"
     interval: 3600
     path: ./Proxy/AirPort2_TW.yaml
     health-check:
@@ -134,7 +134,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   AirPort3_HK:
     type: http
-    url: "https://sub.nxnow.cf/sub?target=clash&url=sub3&include=港&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    url: "https://sub.nxnow.cf/sub?target=clash&url=sub3&include=港&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini&list=true"
     interval: 3600
     path: ./Proxy/AirPort3_HK.yaml
     health-check:
@@ -143,7 +143,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204 
   AirPort3_US:
     type: http
-    url: "https://sub.nxnow.cf/sub?target=clash&url=sub3&include=美&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    url: "https://sub.nxnow.cf/sub?target=clash&url=sub3&include=美&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini&list=true"
     interval: 3600
     path: ./Proxy/AirPort3_US.yaml
     health-check:
@@ -152,7 +152,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204 
   AirPort3_SGP:
     type: http
-    url: "https://sub.nxnow.cf/sub?target=clash&url=sub3&include=坡&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    url: "https://sub.nxnow.cf/sub?target=clash&url=sub3&include=坡&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini&list=true"
     interval: 3600
     path: ./Proxy/AirPort3_SGP.yaml
     health-check:
@@ -161,7 +161,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   AirPort3_JP:
     type: http
-    url: "https://sub.nxnow.cf/sub?target=clash&url=sub3&include=日&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    url: "https://sub.nxnow.cf/sub?target=clash&url=sub3&include=日&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini&list=true"
     interval: 3600
     path: ./Proxy/AirPort3_JP.yaml
     health-check:
@@ -170,7 +170,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   AirPort3_TW:
     type: http
-    url: "https://sub.nxnow.cf/sub?target=clash&url=sub3&include=台&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    url: "https://sub.nxnow.cf/sub?target=clash&url=sub3&include=台&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini&list=true"
     interval: 3600
     path: ./Proxy/AirPort3_TW.yaml
     health-check:
@@ -179,7 +179,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   SSRCloud_CN:
     type: http
-    url: "https://hksub.nxnow.xyz/sub?target=clash&url=薯条sub&include=回国&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini"
+    url: "https://hksub.nxnow.xyz/sub?target=clash&url=薯条sub&include=回国&config=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/outprovide.ini&list=true"
     interval: 3600
     path: ./Proxy/SSRCloud_CN.yaml
     health-check:
@@ -188,7 +188,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   NetEase_Proxy:
     type: http
-    url: "https://sub.nxnow.cf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FNZESupB%2FSubConver-Clash-Profile%2Fmaster%2FNetEaseSub"
+    url: "https://sub.nxnow.cf/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FNZESupB%2FSubConver-Clash-Profile%2Fmaster%2FNetEaseSub&list=true"
     path: ./Proxy/NetEase_Proxy.yaml
     interval: 3600
     health-check:
