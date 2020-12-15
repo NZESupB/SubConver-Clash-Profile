@@ -72,9 +72,9 @@ DOMAIN,subweb.oss-cn-hongkong.aliyuncs.com
 DOMAIN-SUFFIX,erocool.co
 DOMAIN-SUFFIX,e-hentai.org
 # > 国家级域名
-DOMAIN-KEYWORD,us
-DOMAIN-KEYWORD,hk
-DOMAIN-KEYWORD,uk
+DOMAIN-SUFFIX,us
+DOMAIN-SUFFIX,hk
+DOMAIN-SUFFIX,uk
 # > 机场订阅
 DOMAIN-SUFFIX,getluffy.com
 DOMAIN-SUFFIX,cordcloud.org
