@@ -72,13 +72,16 @@ DOMAIN,subweb.oss-cn-hongkong.aliyuncs.com
 DOMAIN,rsshub.app
 DOMAIN,apkfind.com
 DOMAIN,dl.apk-cloud.com
-#GHS
+# GHS
 DOMAIN-SUFFIX,erocool.co
 DOMAIN-SUFFIX,e-hentai.org
 # > 国家级域名
 DOMAIN-SUFFIX,us
 DOMAIN-SUFFIX,hk
 DOMAIN-SUFFIX,uk
+# > 品云有毒服务
+DOMAIN-SUFFIX,52.mk
+DOMAIN-SUFFIX,3o.hk
 # > 机场订阅
 DOMAIN-SUFFIX,getluffy.com
 DOMAIN-SUFFIX,cordcloud.org
