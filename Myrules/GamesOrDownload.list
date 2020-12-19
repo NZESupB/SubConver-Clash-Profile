@@ -66,6 +66,7 @@ IP-CIDR,162.62.158.0/24
 # Mobile Length
 DOMAIN-SUFFIX,youngjoygame.com
 DOMAIN-SUFFIX,yuanzhanapp.com
+IP-CIDR,161.202.48.36/32
 # RiotGames
 IP-CIDR,192.64.170.0/21,no-resolve
 IP-CIDR,104.160.128.0/19,no-resolve
