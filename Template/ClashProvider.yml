@@ -232,12 +232,6 @@ proxy-groups:
       - NetEase_Proxy
     proxies:
       - 🎯 全球直连
-  - name: "📲 电报信息"
-    type: select
-    use:
-    proxies:
-      - 🇸🇬 新加坡
-      - 🇭🇰 香港
   - name: "🌏 国内媒体"
     type: select
     use:
@@ -301,7 +295,19 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 🚀 节点选择      
+      - 🚀 节点选择
+  - name: "📲 电报_DC5"
+    type: select
+    use:
+    proxies:
+      - 🇸🇬 新加坡
+      - 🇭🇰 香港
+  - name: "📲 电报_DC1"
+    type: select
+    use:
+    proxies:
+      - 🇺🇲 美国
+      - 🇭🇰 香港
 # 关于 Rule Provider 请查阅：https://lancellc.gitbook.io/clash/clash-config-file/rule-provider
 
 rule-providers:
@@ -317,11 +323,17 @@ rule-providers:
     path: ./RuleSet/NetEaseMusic.yaml
     url: https://sub.nxnow.cf/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9OZXRFYXNlTXVzaWMubGlzdA
     interval: 86400
-  📲 电报信息:
+  📲 Telegram_SG:
     type: http
     behavior: classical
-    path: ./RuleSet/Telegram.yaml
-    url: https://sub.nxnow.cf/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9FeHRyYS9UZWxlZ3JhbS9UZWxlZ3JhbS5saXN0
+    path: ./RuleSet/Telegram_SG.yaml
+    url: https://sub.nxnow.cf/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9FeHRyYS9UZWxlZ3JhbS9UZWxlZ3JhbVNHLmxpc3Q
+    interval: 86400
+  📲 Telegram_US:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Telegram_US.yaml
+    url: https://sub.nxnow.cf/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9FeHRyYS9UZWxlZ3JhbS9UZWxlZ3JhbVVTLmxpc3Q
     interval: 86400
   🌍 国外媒体:
     type: http
@@ -400,13 +412,13 @@ rules:
   - DOMAIN-SUFFIX,local,DIRECT,no-resolve
   - RULE-SET,💻 本地保留,🎯 全球直连
   - RULE-SET,🎶 网易云音乐,🎶 网易云音乐
-  - RULE-SET,📲 电报信息,📲 电报信息
+  - RULE-SET,📲 Telegram_SG,📲 电报_DC5
+  - RULE-SET,📲 Telegram_US,📲 电报_DC1
   - RULE-SET,🌍 国外媒体,🌍 国外媒体
   - RULE-SET,🌏 国内媒体1,🌏 国内媒体
   - RULE-SET,🌏 国内媒体2,🌏 国内媒体
   - RULE-SET,🛑 广告拦截1,🛑 广告拦截
   - RULE-SET,🛑 广告拦截2,🛑 广告拦截
-  - RULE-SET,📲 电报信息,📲 电报信息
   - RULE-SET,🍎 苹果,Ⓜ️ 微软苹果
   - RULE-SET,Ⓜ️ 微软,Ⓜ️ 微软苹果
   - RULE-SET,🎮 游戏娱乐,🎮 游戏娱乐
