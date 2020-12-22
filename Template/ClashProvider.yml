@@ -296,18 +296,19 @@ proxy-groups:
     proxies:
       - DIRECT
       - 🚀 节点选择
-  - name: "📲 电报_DC5"
-    type: select
+  - name: "📲 Telegram_DC5"
+    type: load-balance
     use:
-    proxies:
-      - 🇸🇬 新加坡
-      - 🇭🇰 香港
-  - name: "📲 电报_DC1"
-    type: select
+      - AirPort1_SGP
+      - AirPort2_SGP
+      - AirPort3_SGP
+  - name: "📲 Telegram_DC1"
+    type: load-balance
     use:
-    proxies:
-      - 🇺🇲 美国
-      - 🇭🇰 香港
+      - AirPort1_US
+      - AirPort2_US
+      - AirPort3_US
+      
 # 关于 Rule Provider 请查阅：https://lancellc.gitbook.io/clash/clash-config-file/rule-provider
 
 rule-providers:
@@ -412,8 +413,8 @@ rules:
   - DOMAIN-SUFFIX,local,DIRECT,no-resolve
   - RULE-SET,💻 本地保留,🎯 全球直连
   - RULE-SET,🎶 网易云音乐,🎶 网易云音乐
-  - RULE-SET,📲 Telegram_SG,📲 电报_DC5
-  - RULE-SET,📲 Telegram_US,📲 电报_DC1
+  - RULE-SET,📲 Telegram_SG,📲 Telegram_DC5
+  - RULE-SET,📲 Telegram_US,📲 Telegram_DC1
   - RULE-SET,🌍 国外媒体,🌍 国外媒体
   - RULE-SET,🌏 国内媒体1,🌏 国内媒体
   - RULE-SET,🌏 国内媒体2,🌏 国内媒体
