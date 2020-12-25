@@ -9,5 +9,5 @@ DOMAIN-SUFFIX,cdnst.net
 DOMAIN-SUFFIX,hgc.com.hk
 DOMAIN-SUFFIX,fdcservers.net
 
-DOMAIN,speed.cloudflare.com
+DOMAIN-SUFFIX,speed.cloudflare.com
 DOMAIN-SUFFIX,api.skk.moe
