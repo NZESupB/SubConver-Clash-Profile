@@ -54,6 +54,12 @@ DOMAIN-SUFFIX,lolesports.com
 DOMAIN-SUFFIX,cds.s4a8x2q3.hwcdn.net
 DOMAIN-SUFFIX,app-measurement.com
 IP-CIDR,162.62.158.0/24
+# RockStar
+DOMAIN-SUFFIX,rockstargames.com
+DOMAIN-SUFFIX,rsg.sc
+DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net
+DOMAIN-SUFFIX,media-rockstargames-com.akamaized.net
+DOMAIN-SUFFIX,videos-rockstargames-com.akamaized.net
 # Mobile Length
 DOMAIN-SUFFIX,youngjoygame.com
 DOMAIN-SUFFIX,yuanzhanapp.com
