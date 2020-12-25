@@ -1,6 +1,13 @@
-HOST-SUFFIX,fast.com
-
+# Fast
+DOMAIN-SUFFIX,fast.com
 # Speedtest by Ookla
 ;USER-AGENT,SpeedTest*
-HOST-KEYWORD,speedtest
-HOST-SUFFIX,ooklaserver.net
+DOMAIN-KEYWORD,speedtest
+DOMAIN-SUFFIX,ooklaserver.net
+
+DOMAIN-SUFFIX,cdnst.net
+DOMAIN-SUFFIX,hgc.com.hk
+DOMAIN-SUFFIX,fdcservers.net
+
+DOMAIN,speed.cloudflare.com
+DOMAIN-SUFFIX,api.skk.moe
