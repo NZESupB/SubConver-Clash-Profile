@@ -14,15 +14,6 @@ DOMAIN-KEYWORD,andapp
 DOMAIN-KEYWORD,hekk
 DOMAIN-KEYWORD,merc
 DOMAIN-SUFFIX,ponosgames.com
-# 测速
-DOMAIN-SUFFIX,speedtest.net
-DOMAIN-SUFFIX,cdnst.net
-DOMAIN-SUFFIX,ooklaserver.net
-DOMAIN-SUFFIX,hgc.com.hk
-DOMAIN-SUFFIX,fdcservers.net
-DOMAIN-SUFFIX,fast.com
-DOMAIN,speed.cloudflare.com
-DOMAIN-SUFFIX,api.skk.moe
 # epic
 DOMAIN-SUFFIX,epicgames.com
 DOMAIN-SUFFIX,helpshift.com
