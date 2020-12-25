@@ -12,6 +12,8 @@ DOMAIN-KEYWORD,ookla
 DOMAIN-KEYWORD,speedtest
 DOMAIN-SUFFIX,lg-hkg.fdcservers.net
 DOMAIN-SUFFIX,ooklaserver.net
+DOMAIN,cdn.ziffstatic.com
+DOMAIN-SUFFIX,evidon.com
 DOMAIN,4glte.ktrn.rw
 DOMAIN,88-f.net
 DOMAIN,Cambodia-isp01.maxbit.com.kh
