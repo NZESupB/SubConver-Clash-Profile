@@ -215,6 +215,14 @@ proxy-groups:
       - 🇯🇵 日本
       - 🇺🇲 美国
       - 🇹🇼 台湾
+  - name: "⚡ 网速测试"
+    type: select
+    proxies:
+      - 🇭🇰 香港
+      - 🇯🇵 日本
+      - 🇺🇲 美国
+      - 🇹🇼 台湾
+      - 🇸🇬 新加坡
   - name: "🌍 国外媒体"
     type: select
     use:
@@ -402,6 +410,12 @@ rule-providers:
     path: ./RuleSet/Game.yaml
     url: https://sub.nxnow.cf/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL05aRVN1cEIvU3ViQ29udmVyLUNsYXNoLVByb2ZpbGUvbWFzdGVyL015cnVsZXMvR2FtZXNPckRvd25sb2FkLmxpc3Q
     interval: 86400
+  ⚡ SpeedTest:
+    type: http 
+    behavior: classical
+    path: ./RuleSet/SpeedTest.yaml
+    url: https://sub.nxnow.cf/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL05aRVN1cEIvU3ViQ29udmVyLUNsYXNoLVByb2ZpbGUvbWFzdGVyL015cnVsZXMvU3BlZWR0ZXN0Lmxpc3Q
+    interval: 86400
   🌍 Myrule:
     type: http 
     behavior: classical
@@ -415,6 +429,7 @@ rules:
   - RULE-SET,🎶 网易云音乐,🎶 网易云音乐
   - RULE-SET,📲 Telegram_SG,📲 Telegram_DC5
   - RULE-SET,📲 Telegram_US,📲 Telegram_DC1
+  - RULE-SET,⚡ SpeedTest,⚡ 网速测试
   - RULE-SET,🌍 国外媒体,🌍 国外媒体
   - RULE-SET,🌏 国内媒体1,🌏 国内媒体
   - RULE-SET,🌏 国内媒体2,🌏 国内媒体
