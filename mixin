@@ -20,4 +20,4 @@ mixin:
     dns-hijack:
       - 198.18.0.2:53
     macOS-auto-route: true
-    macOS-auto-detect-interface: false # 自动检测出口网卡
+    macOS-auto-detect-interface: true # 自动检测出口网卡
