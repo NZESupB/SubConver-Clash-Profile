@@ -2,7 +2,7 @@ mixin:
   dns:
     enable: true
     ipv6: false
-    listen: 0.0.0.0:53
+    # listen: 0.0.0.0:53 #若使用Tap模式则取消此行注释
     enhanced-mode: redir-host # redir-host fake-ip
     # fake-ip-range: 198.18.0.1/16
     # DNSSearch:https://kb.adguard.com/zh/general/dns-providers
