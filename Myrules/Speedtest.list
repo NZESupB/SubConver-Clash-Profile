@@ -1,11 +1,13 @@
 # Fast
 DOMAIN-SUFFIX,fast.com
-
 DOMAIN-SUFFIX,hgc.com.hk
-
 DOMAIN-SUFFIX,speed.cloudflare.com
 DOMAIN-SUFFIX,api.skk.moe
-
+DOMAIN-SUFFIX,app-measurement.com
+DOMAIN-SUFFIX,wlvpn.com
+DOMAIN,1x1.a-mo.net
+DOMAIN,ass.dc-1.net
+DOMAIN,config.88-f.net
 ## > Speedtest by Ookla
 USER-AGENT,SpeedTest*
 DOMAIN-KEYWORD,ookla
