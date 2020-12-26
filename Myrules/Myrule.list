@@ -49,7 +49,6 @@ DOMAIN-SUFFIX,typora.io
 DOMAIN-SUFFIX,mega.co.nz
 DOMAIN-SUFFIX,pximg.net
 DOMAIN-SUFFIX,cloudfront.net
-DOMAIN-SUFFIX,xeton.dev
 DOMAIN-KEYWORD,dropgalaxy
 DOMAIN-SUFFIX,lg-firmwares.com
 DOMAIN-SUFFIX,gvt1.com
@@ -79,6 +78,11 @@ DOMAIN-SUFFIX,pastebin.com
 DOMAIN-SUFFIX,futaacg.com
 # Emby
 DOMAIN-SUFFIX,emby.wtf
+DOMAIN-SUFFIX,jmsooo.com
+DOMAIN-SUFFIX,xeton.dev
+# AGA&BGP服,可不挂代理
+# DOMAIN-SUFFIX,plusmedia.site
+# DOMAIN-SUFFIX,mickeycloud.com
 # GHS
 DOMAIN-SUFFIX,erocool.co
 DOMAIN-SUFFIX,e-hentai.org
