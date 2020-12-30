@@ -324,103 +324,109 @@ rule-providers:
     type: http
     behavior: classical
     path: ./RuleSet/Local_Area_Network.yaml
-    url: https://sub.nxnow.cf/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3RpbmR5MjAxMy9zdWJjb252ZXJ0ZXIvbWFzdGVyL2Jhc2UvcnVsZXMvTG9jYWxBcmVhTmV0d29yay5saXN0
+    url: https://sub.nxnow.cf/clashrule?url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3RpbmR5MjAxMy9zdWJjb252ZXJ0ZXIvbWFzdGVyL2Jhc2UvcnVsZXMvTG9jYWxBcmVhTmV0d29yay5saXN0
     interval: 86400
   🎶 网易云音乐:
     type: http
     behavior: classical
     path: ./RuleSet/NetEaseMusic.yaml
-    url: https://sub.nxnow.cf/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9OZXRFYXNlTXVzaWMubGlzdA
+    url: https://sub.nxnow.cf/clashrule?url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9OZXRFYXNlTXVzaWMubGlzdA
     interval: 86400
   📲 Telegram_SG:
     type: http
     behavior: classical
     path: ./RuleSet/Telegram_SG.yaml
-    url: https://sub.nxnow.cf/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9FeHRyYS9UZWxlZ3JhbS9UZWxlZ3JhbVNHLmxpc3Q
+    url: https://sub.nxnow.cf/clashrule?url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9FeHRyYS9UZWxlZ3JhbS9UZWxlZ3JhbVNHLmxpc3Q
     interval: 86400
   📲 Telegram_US:
     type: http
     behavior: classical
     path: ./RuleSet/Telegram_US.yaml
-    url: https://sub.nxnow.cf/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9FeHRyYS9UZWxlZ3JhbS9UZWxlZ3JhbVVTLmxpc3Q
+    url: https://sub.nxnow.cf/clashrule?url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9FeHRyYS9UZWxlZ3JhbS9UZWxlZ3JhbVVTLmxpc3Q
     interval: 86400
   🌍 国外媒体:
     type: http
     behavior: classical
     path: ./RuleSet/Streaming.yaml
-    url: https://sub.nxnow.cf/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9TdHJlYW1pbmdNZWRpYS9TdHJlYW1pbmcubGlzdA
+    url: https://sub.nxnow.cf/clashrule?url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9TdHJlYW1pbmdNZWRpYS9TdHJlYW1pbmcubGlzdA
     interval: 86400
   🌏 国内媒体1:
     type: http 
     behavior: classical
     path: ./RuleSet/StreamingSE.yaml
-    url: https://sub.nxnow.cf/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9TdHJlYW1pbmdNZWRpYS9TdHJlYW1pbmdTRS5saXN0
+    url: https://sub.nxnow.cf/clashrule?url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9TdHJlYW1pbmdNZWRpYS9TdHJlYW1pbmdTRS5saXN0
     interval: 86400
   🌏 国内媒体2:
     type: http 
     behavior: classical
     path: ./RuleSet/StreamingCN.yaml
-    url: https://sub.nxnow.cf/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9TdHJlYW1pbmdNZWRpYS9TdHJlYW1pbmdDTi5saXN0
+    url: https://sub.nxnow.cf/clashrule?url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9TdHJlYW1pbmdNZWRpYS9TdHJlYW1pbmdDTi5saXN0
     interval: 86400
   🛑 广告拦截1:
     type: http 
     behavior: classical
     path: ./RuleSet/Advertising.yaml
-    url: https://sub.nxnow.cf/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9HdWFyZC9BZHZlcnRpc2luZy5saXN0
+    url: https://sub.nxnow.cf/clashrule?url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9HdWFyZC9BZHZlcnRpc2luZy5saXN0
     interval: 86400
   🛑 广告拦截2:
     type: http 
     behavior: classical
     path: ./RuleSet/Hijacking.yaml
-    url: https://sub.nxnow.cf/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9HdWFyZC9IaWphY2tpbmcubGlzdA
+    url: https://sub.nxnow.cf/clashrule?url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9HdWFyZC9IaWphY2tpbmcubGlzdA
+    interval: 86400
+  🛑 强力拦截:
+    type: http 
+    behavior: classical
+    path: ./RuleSet/Hijacking.yaml
+    url: https://sub.nxnow.cf/clashrule?url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3ByaXZhY3ktcHJvdGVjdGlvbi10b29scy9hbnRpLUFEL21hc3Rlci9hbnRpLWFkLXN1cmdlLnR4dA
     interval: 86400
   🚀 节点选择:
     type: http 
     behavior: classical
     path: ./RuleSet/Global.yaml
-    url: https://sub.nxnow.cf/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9HbG9iYWwubGlzdA
+    url: https://sub.nxnow.cf/clashrule?url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9HbG9iYWwubGlzdA
     interval: 86400
   🍎 苹果:
     type: http 
     behavior: classical
     path: ./RuleSet/Apple.yaml
-    url: https://sub.nxnow.cf/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQXBwbGUubGlzdA
+    url: https://sub.nxnow.cf/clashrule?url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQXBwbGUubGlzdA
     interval: 86400
   Ⓜ️ 微软:
     type: http 
     behavior: classical
     path: ./RuleSet/Microsoft.yaml
-    url: https://sub.nxnow.cf/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9NaWNyb3NvZnQubGlzdA
+    url: https://sub.nxnow.cf/clashrule?url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9NaWNyb3NvZnQubGlzdA
     interval: 86400
   🎯 直连1:
     type: http 
     behavior: classical
     path: ./RuleSet/China.yaml
-    url: https://sub.nxnow.cf/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9DaGluYS5saXN0
+    url: https://sub.nxnow.cf/clashrule?url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9DaGluYS5saXN0
     interval: 86400
   🎯 直连2:
     type: http 
     behavior: ipcidr
     path: ./RuleSet/ChinaIP.yaml
-    url: https://sub.nxnow.cf/getruleset?type=4&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9FeHRyYS9DaGluYUlQLmxpc3Q
+    url: https://sub.nxnow.cf/claship?url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9FeHRyYS9DaGluYUlQLmxpc3Q
     interval: 86400
   🎮 游戏娱乐:
     type: http 
     behavior: classical
     path: ./RuleSet/Game.yaml
-    url: https://sub.nxnow.cf/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL05aRVN1cEIvU3ViQ29udmVyLUNsYXNoLVByb2ZpbGUvbWFzdGVyL015cnVsZXMvR2FtZXNPckRvd25sb2FkLmxpc3Q
+    url: https://sub.nxnow.cf/clashrule?url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL05aRVN1cEIvU3ViQ29udmVyLUNsYXNoLVByb2ZpbGUvbWFzdGVyL015cnVsZXMvR2FtZXNPckRvd25sb2FkLmxpc3Q
     interval: 86400
   ⚡ SpeedTest:
     type: http 
     behavior: classical
     path: ./RuleSet/SpeedTest.yaml
-    url: https://sub.nxnow.cf/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL05aRVN1cEIvU3ViQ29udmVyLUNsYXNoLVByb2ZpbGUvbWFzdGVyL015cnVsZXMvU3BlZWR0ZXN0Lmxpc3Q
+    url: https://sub.nxnow.cf/clashrule?url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL05aRVN1cEIvU3ViQ29udmVyLUNsYXNoLVByb2ZpbGUvbWFzdGVyL015cnVsZXMvU3BlZWR0ZXN0Lmxpc3Q
     interval: 86400
   🌍 Myrule:
     type: http 
     behavior: classical
     path: ./RuleSet/Myrule.yaml
-    url: https://sub.nxnow.cf/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL05aRVN1cEIvU3ViQ29udmVyLUNsYXNoLVByb2ZpbGUvbWFzdGVyL015cnVsZXMvTXlydWxlLmxpc3Q
+    url: https://sub.nxnow.cf/clashrule?url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL05aRVN1cEIvU3ViQ29udmVyLUNsYXNoLVByb2ZpbGUvbWFzdGVyL015cnVsZXMvTXlydWxlLmxpc3Q
     interval: 86400
 # 规则
 rules:
@@ -433,6 +439,7 @@ rules:
   - RULE-SET,🌍 国外媒体,🌍 国外媒体
   - RULE-SET,🌏 国内媒体1,🌏 国内媒体
   - RULE-SET,🌏 国内媒体2,🌏 国内媒体
+  - RULE-SET,🛑 强力拦截,🛑 广告拦截
   - RULE-SET,🛑 广告拦截1,🛑 广告拦截
   - RULE-SET,🛑 广告拦截2,🛑 广告拦截
   - RULE-SET,🍎 苹果,Ⓜ️ 微软苹果
