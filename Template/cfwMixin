@@ -13,7 +13,7 @@ mixin:
     fallback:
       - https://dns.adguard.com/dns-query
       - 1.0.0.1
-      - 8.8.8.8
+      - https://dns.google/dns-query
   # 使用TUN模式,若仅Tap将enable修改为false,或者直接删除tun字段
   # wintun下载:https://www.wintun.net 将wintun.dll复制至Home Directory目录,绿色版为/data文件夹
   tun:
