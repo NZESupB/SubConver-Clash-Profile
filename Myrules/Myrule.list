@@ -76,6 +76,7 @@ DOMAIN,dl.apk-cloud.com
 DOMAIN-SUFFIX,tvapk.net
 DOMAIN-SUFFIX,pastebin.com
 DOMAIN-SUFFIX,futaacg.com
+DOMAIN,kb.adguard.com
 # Emby
 DOMAIN-SUFFIX,tmdb.org
 DOMAIN-SUFFIX,assets.fanart.tv
