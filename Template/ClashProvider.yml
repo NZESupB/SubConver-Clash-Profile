@@ -377,7 +377,7 @@ rule-providers:
   🛑 强力拦截:
     type: http 
     behavior: classical
-    path: ./RuleSet/Hijacking.yaml
+    path: ./RuleSet/Anti_AD.yaml
     url: https://sub.nxnow.cf/clashrule?url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3ByaXZhY3ktcHJvdGVjdGlvbi10b29scy9hbnRpLUFEL21hc3Rlci9hbnRpLWFkLXN1cmdlLnR4dA
     interval: 86400
   🚀 节点选择:
