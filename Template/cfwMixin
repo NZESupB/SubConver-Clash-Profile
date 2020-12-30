@@ -11,7 +11,6 @@ mixin:
       - 192.168.31.1 #本地DNS,查询方法桌面菜单键右键命令提示符(管理员随意) 输入 ipconfig /all,当前网卡的DNS服务器复制至此处即可 
       - tls://dns.rubyfish.cn:853
     fallback:
-      - https://dns.adguard.com/dns-query
       - 1.0.0.1
       - https://dns.google/dns-query
   # 使用TUN模式,若仅Tap将enable修改为false,或者直接删除tun字段
