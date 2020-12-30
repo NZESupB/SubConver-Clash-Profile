@@ -12,6 +12,7 @@ mixin:
       - https://dns.alidns.com/dns-query
     fallback:
       - https://dns.adguard.com/dns-query
+      - https://doh.opendns.com/dns-query
       - https://1.0.0.1/dns-query
       - https://8.8.4.4/dns-query
   # 使用TUN模式
