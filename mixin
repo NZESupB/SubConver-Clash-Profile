@@ -6,22 +6,22 @@ mixin:
     enhanced-mode: redir-host # redir-host fake-ip
     # fake-ip-range: 198.18.0.1/16
     # DNSSearch:https://kb.adguard.com/zh/general/dns-providers
+    # nameserver:
+      #- https://dns.pub/dns-query
+      #- https://dns.rubyfish.cn/dns-query
+      #- https://dns.alidns.com/dns-query
+    #fallback:
+      #- https://dns.adguard.com/dns-query
+      #- https://doh.opendns.com/dns-query
+      #- https://dns.cloudflare.com/dns-query
+      #- https://dns.google/dns-query
     nameserver:
-      - https://dns.pub/dns-query
-      - https://dns.rubyfish.cn/dns-query
-      - https://dns.alidns.com/dns-query
-    fallback:
-      - https://dns.adguard.com/dns-query
-      - https://doh.opendns.com/dns-query
-      - https://dns.cloudflare.com/dns-query
-      - https://dns.google/dns-query
-    nameserver:
-      - 192.168.1.192
-      - https://dns.pub/dns-query
+      - 192.168.31.1 #本地DNS,查询方法桌面菜单键右键命令提示符(管理员随意) 输入 ipconfig /all,当前网卡的DNS服务器复制至此处即可
+      - 119.29.29.29
       - tls://dns.rubyfish.cn:853
     fallback:
       - https://dns.adguard.com/dns-query
-      - https://dns.google/dns-query
+      - 8.8.8.8
   # 使用TUN模式
   # wintun下载:https://www.wintun.net 将wintun.dll复制至Home Directory目录,绿色版为/data文件夹
   tun:
