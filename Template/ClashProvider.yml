@@ -305,20 +305,14 @@ proxy-groups:
     proxies:
       - DIRECT
       - 🚀 节点选择
-  - name: "📲 Telegram_DC5"
+  - name: "📲 Telegram"
     type: load-balance
     use:
-      - AirPort1_SGP
-      - AirPort2_SGP
-      - AirPort3_SGP
-  - name: "📲 Telegram_DC1"
-    type: load-balance
-    use:
-      - AirPort1_US
-      - AirPort2_US
-      - AirPort3_US
+      - AirPort1_HK
+      - AirPort2_HK
+      - AirPort3_HK
+    strategy: round-robin
     
-      
 # 关于 Rule Provider 请查阅：https://lancellc.gitbook.io/clash/clash-config-file/rule-provider
 rule-providers:
   💻 本地保留:
@@ -333,17 +327,11 @@ rule-providers:
     path: ./RuleSet/NetEaseMusic.yaml
     url: https://sub.nxnow.cf/clashrule?url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9OZXRFYXNlTXVzaWMubGlzdA
     interval: 86400
-  📲 Telegram_SG:
+  📲 Telegram:
     type: http
     behavior: classical
-    path: ./RuleSet/Telegram_SG.yaml
-    url: https://sub.nxnow.cf/clashrule?url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9FeHRyYS9UZWxlZ3JhbS9UZWxlZ3JhbVNHLmxpc3Q
-    interval: 86400
-  📲 Telegram_US:
-    type: http
-    behavior: classical
-    path: ./RuleSet/Telegram_US.yaml
-    url: https://sub.nxnow.cf/clashrule?url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9FeHRyYS9UZWxlZ3JhbS9UZWxlZ3JhbVVTLmxpc3Q
+    path: ./RuleSet/Telegram.yaml
+    url: https://sub.nxnow.cf/clashrule?url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9FeHRyYS9UZWxlZ3JhbS9UZWxlZ3JhbS5saXN0
     interval: 86400
   🌍 国外媒体:
     type: http
@@ -434,8 +422,7 @@ rules:
   - DOMAIN-SUFFIX,local,DIRECT,no-resolve
   - RULE-SET,💻 本地保留,🎯 全球直连
   - RULE-SET,🎶 网易云音乐,🎶 网易云音乐
-  - RULE-SET,📲 Telegram_SG,📲 Telegram_DC5
-  - RULE-SET,📲 Telegram_US,📲 Telegram_DC1
+  - RULE-SET,📲 Telegram,📲 Telegram
   - RULE-SET,⚡ SpeedTest,⚡ 网速测试
   - RULE-SET,🌍 国外媒体,🌍 国外媒体
   - RULE-SET,🌏 国内媒体1,🌏 国内媒体
