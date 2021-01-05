@@ -7,11 +7,13 @@ mixin:
     # fake-ip-range: 198.18.0.1/16
     # DNSSearch:https://kb.adguard.com/zh/general/dns-providers
     nameserver:
-    - 192.168.31.1 #本地DNS,查询方法桌面菜单键右键命令提示符(管理员随意) 输入 ipconfig /all,当前网卡的DNS服务器复制至此处即可 
-    - 119.29.29.29
+    - 192.168.31.1 # 本地DNS,查询方法桌面菜单键右键命令提示符(管理员随意) 输入 ipconfig /all,当前网卡的DNS服务器复制至此处即可 
+    - 119.29.29.29 # Tencent
+    # - https://cdn-doh.ssnm.xyz/dns-query # TelegramShare
     fallback:
-    - https://1.1.1.1/dns-query
-    - tls://8.8.8.8:853
+    - tls://dns.google # Google
+    - 94.140.14.14 # ADG
+    - https://dns.cloudflare.com/dns-query # CloudFlare
     fallback-filter:
       geoip: false
       ipcidr:
@@ -31,7 +33,7 @@ mixin:
       - 224.0.0.0/4
       - 240.0.0.0/4
       - 255.255.255.255/32
-      domain:
+      domain: # 如有域名无法解析则加入此处
       - "+.google.com"
       - "+.facebook.com"
       - "+.youtube.com"
@@ -44,4 +46,4 @@ mixin:
     dns-hijack:
       - 198.18.0.2:53
     macOS-auto-route: true
-    macOS-auto-detect-interface: true # 自动检测出口网卡
+    macOS-auto-detect-interface: true
