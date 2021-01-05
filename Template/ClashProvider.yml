@@ -26,7 +26,7 @@ proxies:
 proxy-providers:
   SSRCloud_HK:
     type: http
-    url: "https://hksub.nxnow.xyz/nxclash?url=薯条sub&include=港"
+    url: "https://hksub.nxnow.xyz/nxclash?url=薯条sub&include=港&exclude=游戏"
     interval: 3600
     path: ./Proxy/SSRCloud_HK.yaml
     health-check:
