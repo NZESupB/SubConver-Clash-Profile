@@ -27,25 +27,25 @@ proxy-providers:
   SSRCloud_HK:
     type: http
     url: "https://hksub.nxnow.xyz/nxclash?url=薯条sub&include=港&exclude=游戏"
-    interval: 3600
+    interval: 14400
     path: ./Proxy/SSRCloud_HK.yaml
     health-check:
-      enable: false
-      interval: 3600
+      enable: true
+      interval: 7200
       url: http://www.gstatic.com/generate_204
   SSRCloud_Game:
     type: http
     url: "https://hksub.nxnow.xyz/nxclash?url=薯条sub&include=游戏加速&udp=true"
-    interval: 3600
+    interval: 14400
     path: ./Proxy/SSRCloud_Game.yaml
     health-check:
-      enable: false
-      interval: 3600
+      enable: true
+      interval: 7200
       url: http://www.gstatic.com/generate_204
   AirPort1_HK:
     type: http
     url: "https://sub.nxnow.cf/nxclash?url=sub1&include=港"
-    interval: 3600
+    interval: 14400
     path: ./Proxy/AirPort1_HK.yaml
     health-check:
       enable: true
@@ -54,7 +54,7 @@ proxy-providers:
   AirPort1_US:
     type: http
     url: "https://sub.nxnow.cf/nxclash?url=sub1&include=美"
-    interval: 3600
+    interval: 14400
     path: ./Proxy/AirPort1_US.yaml
     health-check:
       enable: true
@@ -63,7 +63,7 @@ proxy-providers:
   AirPort1_SGP:
     type: http
     url: "https://sub.nxnow.cf/nxclash?url=sub1&include=坡"
-    interval: 3600
+    interval: 14400
     path: ./Proxy/AirPort1_SGP.yaml
     health-check:
       enable: true
@@ -72,7 +72,7 @@ proxy-providers:
   AirPort1_JP:
     type: http
     url: "https://sub.nxnow.cf/nxclash?url=sub1&include=日"
-    interval: 3600
+    interval: 14400
     path: ./Proxy/AirPort1_JP.yaml
     health-check:
       enable: true
@@ -81,7 +81,7 @@ proxy-providers:
   AirPort1_TW:
     type: http
     url: "https://sub.nxnow.cf/nxclash?url=sub1&include=台"
-    interval: 3600
+    interval: 14400
     path: ./Proxy/AirPort1_TW.yaml
     health-check:
       enable: true
@@ -90,7 +90,7 @@ proxy-providers:
   AirPort2_HK:
     type: http
     url: "https://sub.nxnow.cf/nxclash?url=sub2&include=香"
-    interval: 3600
+    interval: 14400
     path: ./Proxy/AirPort2_HK.yaml
     health-check:
       enable: true
@@ -99,7 +99,7 @@ proxy-providers:
   AirPort2_US:
     type: http
     url: "https://sub.nxnow.cf/nxclash?url=sub2&include=美"
-    interval: 3600
+    interval: 14400
     path: ./Proxy/AirPort2_US.yaml
     health-check:
       enable: true
@@ -108,7 +108,7 @@ proxy-providers:
   AirPort2_SGP:
     type: http
     url: "https://sub.nxnow.cf/nxclash?url=sub2&include=坡"
-    interval: 3600
+    interval: 14400
     path: ./Proxy/AirPort2_SGP.yaml
     health-check:
       enable: true
@@ -117,7 +117,7 @@ proxy-providers:
   AirPort2_JP:
     type: http
     url: "https://sub.nxnow.cf/nxclash?url=sub2&include=日"
-    interval: 3600
+    interval: 14400
     path: ./Proxy/AirPort2_JP.yaml
     health-check:
       enable: true
@@ -126,7 +126,7 @@ proxy-providers:
   AirPort2_TW:
     type: http
     url: "https://sub.nxnow.cf/nxclash?url=sub2&include=台"
-    interval: 3600
+    interval: 14400
     path: ./Proxy/AirPort2_TW.yaml
     health-check:
       enable: true
@@ -135,7 +135,7 @@ proxy-providers:
   AirPort3_HK:
     type: http
     url: "https://sub.nxnow.cf/nxclash?url=sub3&include=港"
-    interval: 3600
+    interval: 14400
     path: ./Proxy/AirPort3_HK.yaml
     health-check:
       enable: true
@@ -144,7 +144,7 @@ proxy-providers:
   AirPort3_US:
     type: http
     url: "https://sub.nxnow.cf/nxclash?url=sub3&include=美"
-    interval: 3600
+    interval: 14400
     path: ./Proxy/AirPort3_US.yaml
     health-check:
       enable: true
@@ -153,7 +153,7 @@ proxy-providers:
   AirPort3_SGP:
     type: http
     url: "https://sub.nxnow.cf/nxclash?url=sub3&include=坡"
-    interval: 3600
+    interval: 14400
     path: ./Proxy/AirPort3_SGP.yaml
     health-check:
       enable: true
@@ -162,7 +162,7 @@ proxy-providers:
   AirPort3_JP:
     type: http
     url: "https://sub.nxnow.cf/nxclash?url=sub3&include=日"
-    interval: 3600
+    interval: 14400
     path: ./Proxy/AirPort3_JP.yaml
     health-check:
       enable: true
@@ -171,7 +171,7 @@ proxy-providers:
   AirPort3_TW:
     type: http
     url: "https://sub.nxnow.cf/nxclash?url=sub3&include=台"
-    interval: 3600
+    interval: 14400
     path: ./Proxy/AirPort3_TW.yaml
     health-check:
       enable: true
@@ -180,7 +180,7 @@ proxy-providers:
   SSRCloud_CN:
     type: http
     url: "https://hksub.nxnow.xyz/nxclash?url=薯条sub&include=回国"
-    interval: 3600
+    interval: 86400
     path: ./Proxy/SSRCloud_CN.yaml
     health-check:
       enable: false
@@ -190,10 +190,10 @@ proxy-providers:
     type: http
     url: "https://sub.nxnow.cf/nxclash?url=https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/NetEaseSub"
     path: ./Proxy/NetEase_Proxy.yaml
-    interval: 3600
+    interval: 14400
     health-check:
       enable: false
-      interval: 3600 #半天
+      interval: 3600
       url: http://www.gstatic.com/generate_204
 
 proxy-groups:
