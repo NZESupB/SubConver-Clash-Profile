@@ -13,4 +13,4 @@ Template为Clash和QuanX懒人配置
 
 Myrule为个人收集的规则
 
-snniper为对应sub所需的文件,仅rename.txt继续维护
+snippets为对应sub所需的文件,仅rename.txt继续维护
