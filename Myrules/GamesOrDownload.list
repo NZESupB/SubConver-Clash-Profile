@@ -1,3 +1,6 @@
+PROCESS-NAME,AndApp.exe
+PROCESS-NAME,mercstoria.exe
+PROCESS-NAME,AndAppHelper.exe
 DOMAIN-KEYWORD,mobage
 DOMAIN-KEYWORD,dynamodb
 DOMAIN-KEYWORD,tzfile
