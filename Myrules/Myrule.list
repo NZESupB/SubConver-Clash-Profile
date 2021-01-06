@@ -85,6 +85,7 @@ DOMAIN,ws-mt1.pusher.com
 DOMAIN-SUFFIX,emby.wtf
 DOMAIN-SUFFIX,jmsooo.com
 DOMAIN-SUFFIX,xeton.dev
+DOMAIN-SUFFIX,emby.nyancat.net
 # AGA&BGP服,可不挂代理
 # DOMAIN-SUFFIX,plusmedia.site
 # DOMAIN-SUFFIX,mickeycloud.com
