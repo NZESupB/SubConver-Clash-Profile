@@ -224,6 +224,7 @@ proxy-groups:
       - 🇺🇲 美国
       - 🇹🇼 台湾
       - 🇸🇬 新加坡
+    disable-udp: true
   - name: "🌍 国外媒体"
     type: select
     use:
@@ -234,6 +235,7 @@ proxy-groups:
       - 🇺🇲 美国
       - 🇸🇬 新加坡
       - 🎯 全球直连
+    disable-udp: true
   - name: "🎶 网易云音乐"
     type: select
     use:
@@ -241,6 +243,7 @@ proxy-groups:
       - NetEase_Proxy
     proxies:
       - 🎯 全球直连
+    disable-udp: true
   - name: "🌏 国内媒体"
     type: select
     use:
@@ -249,6 +252,7 @@ proxy-groups:
       - 🇹🇼 台湾
       - 🇭🇰 香港
       - 🚀 节点选择
+    disable-udp: true
   - name: "Ⓜ️ 微软苹果"
     type: select
     use:
@@ -258,6 +262,7 @@ proxy-groups:
       - 🇭🇰 香港
       - 🇯🇵 日本
       - 🇺🇲 美国
+    disable-udp: true
   - name: "🇭🇰 香港"
     type: select
     use:
@@ -294,12 +299,13 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+    disable-udp: true
   - name: "🛑 广告拦截"
     type: select
     proxies:
       - REJECT
-      - 🚀 节点选择
       - DIRECT
+    disable-udp: true
   - name: "🐟 漏网之鱼"
     type: select
     proxies:
@@ -312,6 +318,7 @@ proxy-groups:
       - AirPort2_HK
       - AirPort3_HK
     strategy: round-robin
+    disable-udp: true
     
 # 关于 Rule Provider 请查阅：https://lancellc.gitbook.io/clash/clash-config-file/rule-provider
 rule-providers:
