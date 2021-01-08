@@ -10,6 +10,7 @@ DOMAIN,ass.dc-1.net
 DOMAIN,config.88-f.net
 ## > Speedtest by Ookla
 USER-AGENT,SpeedTest*
+PROCESS-NAME,Speedtest.exe
 DOMAIN-KEYWORD,ookla
 DOMAIN-KEYWORD,speedtest
 DOMAIN-SUFFIX,lg-hkg.fdcservers.net
