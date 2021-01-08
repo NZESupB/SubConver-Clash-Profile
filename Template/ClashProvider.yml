@@ -253,7 +253,7 @@ proxy-groups:
       - 🇭🇰 香港
       - 🚀 节点选择
     disable-udp: true
-  - name: "Ⓜ️ 微软苹果"
+  - name: "Ⓜ️ 微软服务"
     type: select
     use:
     proxies:
@@ -382,12 +382,6 @@ rule-providers:
     path: ./RuleSet/Global.yaml
     url: https://sub.nxnow.cf/clashrule?url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9HbG9iYWwubGlzdA
     interval: 86400
-  🍎 苹果:
-    type: http 
-    behavior: classical
-    path: ./RuleSet/Apple.yaml
-    url: https://sub.nxnow.cf/clashrule?url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQXBwbGUubGlzdA
-    interval: 86400
   Ⓜ️ 微软:
     type: http 
     behavior: classical
@@ -434,8 +428,7 @@ rules:
   - RULE-SET,🌍 国外媒体,🌍 国外媒体
   - RULE-SET,🌏 国内媒体1,🌏 国内媒体
   - RULE-SET,🌏 国内媒体2,🌏 国内媒体
-  - RULE-SET,🍎 苹果,Ⓜ️ 微软苹果
-  - RULE-SET,Ⓜ️ 微软,Ⓜ️ 微软苹果
+  - RULE-SET,Ⓜ️ 微软,Ⓜ️ 微软
   - RULE-SET,🎮 游戏娱乐,🎮 游戏娱乐
   - RULE-SET,🚀 节点选择,🚀 节点选择
   - RULE-SET,🌍 Myrule,🚀 节点选择
