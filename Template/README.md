@@ -7,3 +7,5 @@ QuanX为QuanX懒人配置,所有规则分组与Clash大致相同
 
 
 cfw mixin为Tap模式/Tun模式开启配置文件,适用于win平台下专业版内核衍生的clash软件
+
+MixinTun为自用mixin配置
