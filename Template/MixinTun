@@ -7,7 +7,7 @@ mixin:
     # DNSSearch:https://kb.adguard.com/zh/general/dns-providers
     nameserver:
       - https://doh.pub/dns-query
-      - https://cdn-doh.ssnm.xyz/dns-query
+      - tls://dot.ssnm.xyz:853
     fallback:
       - tls://dns.google # Google
       - https://dns.cloudflare.com/dns-query # CloudFlare  
