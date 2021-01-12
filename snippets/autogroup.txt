@@ -7,6 +7,5 @@
 🇹🇼 台湾`url-test(台)
 🇸🇬 新加坡`url-test`(坡|狮城)
 🇰🇷 韩国`url-test`(韩)
-🎯 全球直连`[]DIRECT
-🛑 广告拦截`[]REJECT`[]🚀 节点选择`[]DIRECT
-🐟 漏网之鱼`[]DIRECT`[]🚀 节点选择
+🎯 全球直连`select`[]DIRECT
+🐟 漏网之鱼`select`[]DIRECT`[]🚀 节点选择
