@@ -23,7 +23,7 @@ hosts:
   # '.dev': 127.0.0.1
   # 'alpha.clash.dev': '::1'
   # Google阉割套件重定向
-  services.googleapis.cn : 172.217.161.170
+  services.googleapis.cn: 172.217.161.170
     
 proxies:
 proxy-providers:
