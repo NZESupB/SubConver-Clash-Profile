@@ -9,11 +9,11 @@
       "id": "lxk_jxnc",
       "name": "京喜农场",
       "keys": [
-        "JXNCTOKENS"
+        "JxncTokens"
       ],
       "settings": [
         {
-          "id": "JXNCTOKENS",
+          "id": "JxncTokens",
           "name": "京喜token",
           "val": "",
           "type": "text",
