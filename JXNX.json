@@ -14,10 +14,10 @@
       "settings": [
         {
           "id": "jxnc_token1",
-          "name": "京喜token1",
+          "name": "京喜token",
           "val": "",
           "type": "text",
-          "desc": "京喜token1"
+          "desc": "京喜token"
         }
       ],
       "author": "@LXK9301",
