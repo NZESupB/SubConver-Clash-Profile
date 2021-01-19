@@ -9,27 +9,11 @@
       "id": "lxk_jxnc",
       "name": "京喜农场",
       "keys": [
-        "JxncTokens",
-        "JXNCTOKENS",
-        "currentToken"
+        "tokenArr"
       ],
       "settings": [
         {
-          "id": "JxncTokens",
-          "name": "京喜token",
-          "val": "",
-          "type": "text",
-          "desc": "京喜token"
-        },
-        {
-          "id": "JXNCTOKENS",
-          "name": "京喜token2",
-          "val": "",
-          "type": "text",
-          "desc": "京喜token2"
-        },
-        {
-          "id": "currentToken",
+          "id": "tokenArr",
           "name": "京喜token3",
           "val": "",
           "type": "text",
