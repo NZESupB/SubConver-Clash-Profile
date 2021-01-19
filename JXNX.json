@@ -1,0 +1,32 @@
+{
+  "id": "LXK9301JXNC",
+  "name": "LXK9301脚本京喜农场TOKEN",
+  "author": "@LXK9301",
+  "icon": "https://avatars0.githubusercontent.com/u/21308593?s=52&v=4",
+  "repo": "https://github.com/LXK9301/jd_scripts/",
+  "apps": [
+    {
+      "id": "lxk_jxnc",
+      "name": "京喜农场",
+      "keys": [
+        "JXNCTOKENS"
+      ],
+      "settings": [
+        {
+          "id": "JXNCTOKENS",
+          "name": "京喜token",
+          "val": "",
+          "type": "text",
+          "desc": "京喜token"
+        }
+      ],
+      "author": "@LXK9301",
+      "repo": "https://github.com/LXK9301/jd_scripts",
+      "script": "https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_jxnc.js",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/jd_jxnc.mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/jd_jxnc.png"
+      ]
+    }
+  ]
+}
