@@ -9,15 +9,23 @@
       "id": "lxk_jxnc",
       "name": "京喜农场",
       "keys": [
-        "jdTokenNode"
+        "jxnc_token1",
+        "jxnc_token2"
       ],
       "settings": [
         {
-          "id": "jdTokenNode",
-          "name": "京喜token",
+          "id": "jxnc_token1",
+          "name": "jxnc_token1",
           "val": "",
           "type": "text",
-          "desc": "京喜token"
+          "desc": "jxnc_token1"
+        },
+        {
+          "id": "jxnc_token2",
+          "name": "jxnc_token2",
+          "val": "",
+          "type": "text",
+          "desc": "jxnc_token2"
         }
       ],
       "author": "@LXK9301",
