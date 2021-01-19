@@ -9,15 +9,15 @@
       "id": "lxk_jxnc",
       "name": "京喜农场",
       "keys": [
-        "tokenArr"
+        "jxnc_token1"
       ],
       "settings": [
         {
-          "id": "tokenArr",
-          "name": "京喜token3",
+          "id": "jxnc_token1",
+          "name": "京喜token1",
           "val": "",
           "type": "text",
-          "desc": "京喜token3"
+          "desc": "京喜token1"
         }
       ],
       "author": "@LXK9301",
