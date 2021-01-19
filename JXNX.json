@@ -10,7 +10,8 @@
       "name": "京喜农场",
       "keys": [
         "JxncTokens",
-        "JXNCTOKENS"
+        "JXNCTOKENS",
+        "currentToken"
       ],
       "settings": [
         {
@@ -19,13 +20,20 @@
           "val": "",
           "type": "text",
           "desc": "京喜token"
-        }
+        },
         {
           "id": "JXNCTOKENS",
           "name": "京喜token2",
           "val": "",
           "type": "text",
           "desc": "京喜token2"
+        },
+        {
+          "id": "currentToken",
+          "name": "京喜token3",
+          "val": "",
+          "type": "text",
+          "desc": "京喜token3"
         }
       ],
       "author": "@LXK9301",
