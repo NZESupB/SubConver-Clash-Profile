@@ -9,7 +9,10 @@
       "id": "lxk_jxnc",
       "name": "京喜农场",
       "keys": [
-        "jdTokenNode"
+        "jdTokenNode",
+        "farm_jstoken",
+        "phoneid",
+        "timestamp"
       ],
       "settings": [
         {
@@ -18,6 +21,27 @@
           "val": "",
           "type": "text",
           "desc": "京喜token"
+        },
+        {
+          "id": "farm_jstoken",
+          "name": "farm_jstoken",
+          "val": "",
+          "type": "text",
+          "desc": "farm_jstoken"
+        },
+        {
+          "id": "phoneid",
+          "name": "phoneid",
+          "val": "",
+          "type": "text",
+          "desc": "phoneid"
+        },
+        {
+          "id": "timestamp",
+          "name": "timestamp",
+          "val": "",
+          "type": "text",
+          "desc": "timestamp"
         }
       ],
       "author": "@LXK9301",
