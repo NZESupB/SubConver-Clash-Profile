@@ -82,9 +82,7 @@ TencentAnycast@AIA
 Elastic Network Adapter 10 Anycast任播@AGA
 伦敦电信@伦敦 电信
 中港专线@中港
-阿里@香港
 广域网加速虚拟引擎@
-
 
 专线 港区TVB\/HBO\/\*解锁@*
 .*(PVCC).*(\d\d)@香港 $1 $2
