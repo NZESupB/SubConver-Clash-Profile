@@ -32,8 +32,8 @@ Direct|GIA直连@直连
 (\（).*?(\）)@
 .(\d)*.bps@
 ;\s(A|B|C|D|E|F)(\s)?(\d\d)@ $1$3
-(\s)(A|B|C|D|E|F)(\s)?(\d\d)@$1$3
-(IEPL|IPLC)[\D\d]*([A-F]\d\d)@$1 $2
+(\s)(A|B|C|D|E|F)(\s)?(\d\d)@$1$4
+;(IEPL|IPLC)[\D\d]*([A-F]\d\d)@$1 $2
 CNIX\s\-\s@
 
 ;未知某机场KK
