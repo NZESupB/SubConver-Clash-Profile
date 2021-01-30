@@ -38,7 +38,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   SSRCloud_Game:
     type: http
-    url: "https://hksub.nxnow.xyz/nxclash?url=薯条sub&include=游戏加速&udp=true"
+    url: "https://hksub.nxnow.xyz/nxclash?url=薯条sub&include=游戏加速"
     interval: 14400
     path: ./Proxy/SSRCloud_Game.yaml
     health-check:
