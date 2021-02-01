@@ -25,7 +25,7 @@ hosts:
   # Google阉割套件重定向
   services.googleapis.cn: 172.217.161.170
 
-#订阅处若使用我提供的两个API可使用nxclash与nxqx两个参数,其他api请自行重新生成链接,本人api域名于2021.7月到期,倒是可能会更改
+#不在提供API,以下API均已失效
 proxies:
 proxy-providers:
   SSRCloud_HK:
