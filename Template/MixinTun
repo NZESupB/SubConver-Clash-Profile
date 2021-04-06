@@ -7,7 +7,6 @@ mixin:
     # DNSSearch:https://kb.adguard.com/zh/general/dns-providers
     nameserver:
       # - https://doh.pub/dns-query
-      - https://dh-dns.global-idc.net/dns-query
       - https://dns.alidns.com/dns-query
     fallback:
       - https://dh-dns.global-idc.net/dns-query
